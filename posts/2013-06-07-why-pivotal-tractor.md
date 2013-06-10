@@ -1,5 +1,7 @@
 # Why not Pivotal Tracker?
 
+![no pivotal](http://gaslight.github.io/posts/assets/images/pivotal-tracker-ios-256.png)
+
 We've been using Pivotal Tracker for a very long time. At least once
 we've made a serious attempt to switch to something else. The time has
 come for another attempt. Our goal is to provide a more complete,
