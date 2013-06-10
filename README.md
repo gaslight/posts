@@ -9,12 +9,13 @@ Requests!
 
 ## How to submit
 
-1. Fork the repo.
+1. Clone the repo.
 1. Create a branch.
 1. Create the post and write write write. Commit often.
 1. Ready? Fetch and rebase interactively against origin. Your new post should
    be a single commit.
-1. Submit a pull request.
+1. Push the branch
+1. Visit Github and click "Pull Request" under "your recently pushed branches"
 
 ## Editing
 
