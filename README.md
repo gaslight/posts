@@ -15,6 +15,7 @@ Requests!
 1. Ready? Fetch and rebase interactively against origin. Your new post should
    be a single commit.
 1. Push the branch
+1. Visit Github and click "Pull Request" under "your recently pushed branches"
 
 ## Editing
 
