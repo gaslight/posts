@@ -1,4 +1,4 @@
-I got into Ruby through JRuby. I was doing Java for about 10 years before I
+I got into Ruby through [JRuby](http://jruby.org/). I was doing Java for about 10 years before I
 started doing Ruby. What got me interested, like so many others, was Rails. I
 was blown away by Ruby and Rails, but the surrounding ecosystem (native
 libraries that needed to be compiled on each platform) made me sad. My initial
@@ -9,7 +9,7 @@ Though I had some success, it quickly became apparent that what really made
 Rails such a joy to build with is the Ruby language itself. I discovered JRuby
 at about this same time, and there was a huge momentum around the project. Sun
 Microsystems, the inventor of Java, hired the two leaders of the project,
-Charles Nutter and Tom Enobo to work on it full time and it quickly progressed
+[Charles Nutter](http://blog.headius.com/) and [Tom Enebo](https://github.com/enebo) to work on it full time and it quickly progressed
 to the point where it could run Rails. All of a sudden we had all the amazing
 developer productivity of the Ruby language combined with the mature, platform
 independent ecosystem and solid engineering of the JVM. I was convinced we
@@ -58,4 +58,4 @@ This adds up to a big win for organizations that are larger and
 have different needs, than the prototypical startup that would previously been
 the sweet spot for Rails. We want to get the word out to large organizations 
 that you absolutely can have your cake and eat it too. You can deliver applications 
-quickly, with less code, inside the infrastructure you already have. Go JRuby!
+quickly, with less code, inside the infrastructure you already have. Go [JRuby](http://jruby.org)!
