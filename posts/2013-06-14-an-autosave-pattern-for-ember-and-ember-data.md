@@ -8,7 +8,14 @@ nice to automatically save the user's data as they fill out forms.
 Automatically saving models in Ember can be a little tricky. A first pass might
 look like this:
 
-<script src="https://gist.github.com/mitchlloyd/5782436.js"></script>
+````coffeescript
+App.Document = DS.Model.extend
+  # some attributes here...
+
+  saveWhenDirty: (->
+    @get('store').commit() if @get('isDirty')
+  ).property('isDirty')
+````
 
 This solution has some significant problems:
 
@@ -40,14 +47,44 @@ the user types, the debounce function is called repeatedly but only fires the
 save function when the user pauses. Here is a simple debounce function based on
 [underscore's debounce](http://underscorejs.org/#debounce).
 
-<script src="https://gist.github.com/mitchlloyd/5782662.js"></script>
+````coffeescript
+App.debounce = (func, wait) ->
+  timeout = null
+
+  ->
+    context = this
+    args = arguments
+
+    immediate = true if args[0] and args[0].now
+
+    later = ->
+      timeout = null
+      func.apply(context, args)
+
+    clearTimeout(timeout)
+
+    if immediate
+      func.apply(context, args)
+    else
+      timeout = setTimeout(later, wait)
+````
 
 One bonus feature here is that there is a way to clear out the pending function
 call and execute immediately by passing `now: true` to our debounced function.
 
 Let's use that function to implement some saner saving.
 
-<script src="https://gist.github.com/mitchlloyd/5782698.js"></script>
+````coffeescript
+App.DocumentController = Ember.ObjectController.extend
+  autoSave: (->
+    @debouncedSave()
+  ).property('content.body')
+  
+  debouncedSave: App.debounce (-> @save()), 1000
+  
+  save: ->
+    @get('store').commit()
+````
 
 So now when the user stops typing for 1 second, the save function will be called.
 
@@ -62,13 +99,77 @@ holds the attribute instead of editing it directly on the model. Since writing
 this code, I've seen this pattern called a
 [Buffered Proxy](https://gist.github.com/lukemelia/5632776).
 
-<script src="https://gist.github.com/mitchlloyd/5784462.js"></script>
+````coffeescript
+#= require ./debounce
+
+BUFFER_DELAY = 1000
+
+App.AutoSaving = Ember.Mixin.create
+  # Setup buffers to write to instead of directly editing
+  # the model attributes.
+  _buffers: Ember.Map.create()
+
+  # Buffered fields are saved after the set delay for the
+  # debounce
+  bufferedFields: []
+
+  # InstaSave fields save the model as soon as they are changed
+  instaSaveFields: []
+
+  # Convenience property to access all the fields together
+  _allFields: (->
+    @get('bufferedFields').concat @get('instaSaveFields')
+  ).property()
+
+  # If we update a field that has been specified as one of the
+  # bufferedFields or instaSaveFields write these to a buffer
+  # instead of the actual attribute and save.
+  setUnknownProperty: (key, value) ->
+    if @get('bufferedFields').contains(key)
+      @get('_buffers').set(key, value)
+      @_debouncedSave()
+    else if @get('instaSaveFields').contains(key)
+      @_super(key, value)
+      @_debouncedSave(now: true)
+    else
+      @_super(key, value)
+
+  # Pull properties from the buffer if they have been set there.
+  unknownProperty: (key) ->
+    if @get('_allFields').contains(key) and @_buffers.get(key)
+      @_buffers.get(key)
+    else
+      @_super(key)
+
+  # Write the buffers to the actual content and save.
+  _autoSave: ->
+    if not @get('content.isSaving')
+      @get('_buffers').forEach (key, value) =>
+        @get('content').set(key, value)
+      @get('content').save()
+    else # If we're currently saving, then try to save later.
+      @_debouncedSave()
+
+  _debouncedSave: App.debounce (-> @_autoSave()), BUFFER_DELAY
+
+  # When the model is about to change out from under the controller we must
+  # immediately save any pending changes and clear out the buffers.
+  _saveNowAndClear: (->
+    return unless @get('content')
+    @_debouncedSave(now: true)
+    @set('_buffers', Ember.Map.create())
+  ).observesBefore('content')
+````
 
 This mixin can be applied in a controller to provide a buffer between the Ember
 fields and the model's attributes so that users can continue to type while
 saving. Here is an example of this mixin in use.
 
-<script src="https://gist.github.com/mitchlloyd/5784507.js"></script>
+````coffeescript
+App.DocumentController = Ember.ObjectController.extend App.AutoSaving,
+  bufferedFields: ['title', 'body']
+  instaSaveFields: ['postedAt', 'category']
+````
 
 
 Good Enough?
