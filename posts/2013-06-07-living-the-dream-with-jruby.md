@@ -1,3 +1,5 @@
+![Chris Nelson](http://gaslight.github.io/posts/assets/images/2013-06-07-living-the-dream-with-jruby-01.jpg)
+
 I got into Ruby through [JRuby](http://jruby.org/). I was doing Java for about 10 years before I
 started doing Ruby. What got me interested, like so many others, was Rails. I
 was blown away by Ruby and Rails, but the surrounding ecosystem (native
