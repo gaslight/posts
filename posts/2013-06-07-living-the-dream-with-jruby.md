@@ -21,7 +21,7 @@ struts-config.xml files. Turns out my timing on this was a wee bit off ;)
 
 Fast forward about 8 years to 2013. We at Gaslight are starting to see a
 pickup in Ruby adoption in the enterprise.  It's common knowledge that the
-enterprise tends to be more risk-averse in it's technology adoption. What 
+enterprise tends to be more risk-averse in its technology adoption. What 
 is now old news in the startup community, is just coming onto the enterprise 
 scene. But at this point, Ruby and Rails are no longer new and scary: it's
 a mature tech stack with lots of success stories to back it up.
