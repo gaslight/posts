@@ -20,9 +20,9 @@ App.Document = DS.Model.extend
 This solution has some significant problems:
 
   * Everytime the user types a character an ajax request is sent to the server
-    resulting in a flood of requests
+    resulting in a flood of requests.
   * As the user types, Ember throws errors saying that you can't modify
-    attributes when a model is "inFlight"
+    attributes when a model is "inFlight".
 
 Debouncing Our Save
 -------------------
@@ -30,12 +30,7 @@ Debouncing Our Save
 Let's tackle the "too many saves" problem first. Ideally we want to save the
 user's data at some logical time. In many applications saving happens when a
 form is submitted or when a field blurs. However handling all of the cases where
-we want to save can get a little finicky. The built-in Ember controls work very
-reliably for updating model attributes and when I started extending these views to
-handle events where the user would want to save (e.g. focusOut, change) I ran
-into some edge cases where the events would not fire. For instance, when using
-the back button after editing a field I found that the change event would not
-fire.
+we want to save can get a little finicky. On their own, the built-in Ember controls work very reliably for updating model attributes. When I started extending these views to handle events where the user would want to save (e.g. focusOut, change) I ran into some edge cases where the events would not fire. For instance, when using the back button after editing a field I found that the change event would not fire on a field with focus.
 
 In any event we also want to handle the case where a user is editing a lot of
 text in a textarea and wants to save their work as they go. We want to save when
@@ -55,7 +50,8 @@ App.debounce = (func, wait) ->
     context = this
     args = arguments
 
-    immediate = true if args[0] and args[0].now
+    lastArg = args[args.length - 1]
+    immediate = true if lastArg and lastArg.now
 
     later = ->
       timeout = null
@@ -70,7 +66,7 @@ App.debounce = (func, wait) ->
 ````
 
 One bonus feature here is that there is a way to clear out the pending function
-call and execute immediately by passing `now: true` to our debounced function.
+call and execute immediately by passing `{now: true}` to our debounced function.
 
 Let's use that function to implement some saner saving.
 
