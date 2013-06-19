@@ -14,7 +14,7 @@ App.Document = DS.Model.extend
 
   saveWhenDirty: (->
     @get('store').commit() if @get('isDirty')
-  ).property('isDirty')
+  ).observes('isDirty')
 ````
 
 This solution has some significant problems:
@@ -78,7 +78,7 @@ Let's use that function to implement some saner saving.
 App.DocumentController = Ember.ObjectController.extend
   autoSave: (->
     @debouncedSave()
-  ).property('content.body')
+  ).observes('content.body')
   
   debouncedSave: App.debounce (-> @save()), 1000
   
