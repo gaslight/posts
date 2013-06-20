@@ -1,4 +1,4 @@
-# Announcing Web School Cincy
+![web school cincy](http://gaslight.github.io/posts/assets/images/2013-06-17-web-school-cincy-01.png)
 
 ##  The Windup...
 
