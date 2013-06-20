@@ -3,9 +3,9 @@
 ##  The Windup...
 
 The number of "paid apprenticeship" schools has experienced a bit of a surge
-recently, especially in our domain, Web development and specifically those
+recently, especially in web development, and specifically those
 teaching Ruby on Rails. This phenomenon is due largely to the realignment in
-the work force from mat rial workers to information workers.
+the work force from material workers to information workers.
 
 We've seen the demand for tech talent grow steadily and we're beginning to
 feel the pinch ourselves. Recruiters are becoming a more frequent "guest" at
