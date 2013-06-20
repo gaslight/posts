@@ -53,7 +53,7 @@ developers with fire in their bellies and a desire to build something awesome
 who will team up with entrepreneurs at The Brandery, Cintrifuse or NKU's
 INKUBATOR. We also want to attract career change minded 30 and 40 somethings
 seeking the stability of product work with one of the many companies in our
-region clamoring for Rails talent. We especially hope to reach veterans
+region clamouring for Rails talent. We especially hope to reach veterans
 looking to transition to a civilian career in a growth industry that is as
 rewarding as serving their country. Perhaps most importantly, we want to
 attract students in under-represented socio-economic groups. Who knows, maybe
