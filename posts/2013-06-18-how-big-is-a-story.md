@@ -1,4 +1,4 @@
-How big is a Story?
+![shrinkage](http://gaslight.github.io/posts/assets/images/2013-06-18-how-big-is-a-story-01.png)
 
 In conversations about Kanban, @dougalcorn mentioned [Jeff
 Patton's](http://www.agileproductdesign.com/) excellent article [Kanban Over
