@@ -23,6 +23,14 @@ Requests!
    grammar, spelling, etc. This might go back and forth a couple times.
 1. Once we're all happy, it'll be merged.
 
+## Adding Images to Posts
+
+1. Create and size the images
+2. Checkout the gh-pages branch of this repo
+3. Add to assets/images
+4. Checkin, commit and push
+5. Images will be available at http://gaslight.github.io/posts/assets/images/[image_filename] (may take up to 10 minutes :P)
+
 ## Posting
 
 Currently, we're publishing to tumblr.
