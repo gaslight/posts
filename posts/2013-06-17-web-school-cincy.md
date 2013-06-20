@@ -1,8 +1,8 @@
-# Announcing Web Shool Cincy
+# Announcing Web School Cincy
 
 ##  The Windup...
 
-The number of "paid apprentiship" schools has experienced a bit of a surge
+The number of "paid apprenticeship" schools has experienced a bit of a surge
 recently, especially in our domain, Web development and specifically those
 teaching Ruby on Rails. This phenomenon is due largely to the realignment in
 the work force from mat rial workers to information workers.
@@ -44,7 +44,7 @@ year. Our desire is to welcome the first class before the end of this year,
 Gaslight's new (and hopefully soon to be announced) location in downtown
 Cincinnati. This may seem like a bold plan but we have little doubt there is an
 urgent need for it and have faith that our community will respond to this
-annoucement.
+announcement.
 
 Our goal is to create a program that will meet the needs of our community and
 not simply our own. To be frank, there was a point when we didn't understand
@@ -53,14 +53,15 @@ developers with fire in their bellies and a desire to build something awesome
 who will team up with entrepreneurs at The Brandery, Cintrifuse or NKU's
 INKUBATOR. We also want to attract career change minded 30 and 40 somethings
 seeking the stability of product work with one of the many companies in our
-region clamouring for Rails talent. We especially hope to reach veterans
+region clamoring for Rails talent. We especially hope to reach veterans
 looking to transition to a civilian career in a growth industry that is as
 rewarding as serving their country. Perhaps most importantly, we want to
 attract students in under-represented socio-economic groups. Who knows, maybe
 we'll even find a hippy or two wanting to join us at Gaslight.
 
-So we're seeking sponsors and students for Web School Cincy. Don't worry,
-that's just a working name. You can sign up today and we'll keep you in the
-loop with all the latest developments. Just visit signup.webschoolcincy.com
-and leave us your email address or email us at info@webschoolcincy.com and
-tell us how you'd like to be involved.
+So we're seeking sponsors and students for [Web School Cincy](http://signup.webschoolcincy.com/).
+Don't worry, that's just a working name. You can sign up today and we'll keep
+you in the loop with all the latest developments. Just visit
+[signup.webschoolcincy.com](http://signup.webschoolcincy.com/)and leave us
+your email address or email us at [info@webschoolcincy.com](mailto:info@webschoolcincy.com)
+and tell us how you'd like to be involved.
