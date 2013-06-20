@@ -12,7 +12,7 @@ first edition of Extreme Programming Explained, was characterized as "estimable
 between one to five ideal programming WEEKS." This was shocking to me, as it
 would be to most developers. Not so long ago, here in the office, we would say
 that if a story was on it's second day, it needed some help, and if it was on
-it's third say, there was something wrong! I imagine that most dev shops are
+it's third day, there was something wrong! I imagine that most dev shops are
 similar.
 
 What caused this amazing shift in story size? There are a few reasons.
