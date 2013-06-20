@@ -1,9 +1,12 @@
-"Where do I fit in?' This is my first thought as I walk into the door at
-"Gaslight. It's my first day, and just like so many other interns on their first
-"day or any person on their first day I was unsure but excited start a new
-"position, meet new people, learn new things, and show what I can do. Lucky for
-"me, Gaslight is filled with friendly, knowledgable, light-hearted people, and
-"the transition into the team painless.
+
+![gaslight team](http://gaslight.github.io/posts/assets/images/2013-06-20-Hows-it-going-01.png)
+
+'Where do I fit in?' This is my first thought as I walk into the door at
+Gaslight. It's my first day, and just like so many other interns on their first
+day or any person on their first day I was unsure but excited start a new
+position, meet new people, learn new things, and show what I can do. Lucky for
+me, Gaslight is filled with friendly, knowledgable, light-hearted people, and
+the transition into the team painless.
 
 One of the qualities they possess that really stood out in this process was
 their love of teamwork. They truly value the way true teamwork and the
