@@ -33,7 +33,7 @@ rather than customer goals and values. The illusion of momentum is that forward
 progress is being made, when no value is being delivered. It is not uncommon to
 break a feature down to such a detail of implementation, that the product owner
 is asked to click "Accept", having no confidence that anything was actually
-delivered. Asking a customer to "take our word for it" is fail.
+done. Asking a customer to "take our word for it" is fail.
 
 Don't get me wrong, planners should still strive to make stories as small as
 possible. However, stories must first and foremost meet a standard of minimum
@@ -60,6 +60,6 @@ In our previous article, [Why Not Pivotal
 Tracker](http://blog.gaslight.co/post/52640678160/why-not-pivotal-tracker), Doug
 states correctly that velocity is flawed. I still think that the illusion of
 velocity is a beneficial force from a developer standpoint. Velocity is a lie
-that swindles a customer, but motivates a developer. Perhaps we need new
-terminology to deal with that seperation of concerns. One thing is clear,
-"stories" and "features" belong to customers and should deliver value.
+that deceives a customer, but motivates a developer. Perhaps we need new
+terminology to deal with that seperation of concerns. One thing is clear, first and 
+foremost, "stories" should define and communicate value to the customer.
