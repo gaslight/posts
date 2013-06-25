@@ -71,6 +71,7 @@ But, as Zed Shaw would say, Programming Motherf*er.
     unless @id
       @set('id', utils.guid()) unless @id
       @_new = true
+      @once 'sync', => @_new = false
 
   isNew: ->
     @_new
