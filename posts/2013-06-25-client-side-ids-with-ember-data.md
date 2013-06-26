@@ -67,6 +67,7 @@ persisted](https://github.com/documentcloud/backbone/blob/1.0.0/backbone.js#L550
 But, as Zed Shaw would say, Programming Motherf*er.
 
 ```coffeescript
+class App.Model extends Backbone.Model
   initialize: ->
     unless @id
       @set('id', utils.guid()) unless @id
@@ -100,7 +101,7 @@ Ember will continue to be a good fit for this approach.
 Even though we're talking about client-generated IDs, there will be times when
 the server needs to generate IDs of its own. If you're using Mongo, you're in
 luck -- it already uses unique IDs.  Here's how you can whip up some matching
-unique IDs in PostgreSQL and Rails with a couple of migrations.
+unique IDs in PostgreSQL and Rails 4 with a couple of migrations.
 
 ```ruby
 # Enable UUID generation in PostgreSQL
