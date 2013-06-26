@@ -28,6 +28,9 @@ content. We literally couldn't have done it without them. NOTE:
 They're just coming out of their private beta. So we encourage you to
 check them out!
 
+![Chaminade-Julienne High School Summer STEMM Camp](http://gaslight.github.io/posts/assets/images/2013-06-20-cjhs-stemm-camp.png)
+<p><center><em>Chaminade-Julienne Summer STEMM Camp attendees<br />running their Ruby on Rails application live on the Web.</em></center></p>
+
 ## CJ Eagle Pride!
 
 On the day of our session, Chris Nelson and I headed up I-75 excited
