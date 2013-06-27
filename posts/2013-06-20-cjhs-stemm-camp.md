@@ -1,17 +1,17 @@
-# Chaminade-Julienne Summer STEMM Camp
+# Chaminade Julienne Summer STEMM Camp
 
 ## A Chance Encounter
 
 Through a connection at the [Southwest Ohio
 Givecamp](http://southwestohiogivecamp.org/) we were contacted by Meg
-Draeger, coordinator for [Chaminade-Julienne High School's STEMM
-Summer Camp](http://www.cjeagles.org/youth-programs/summer-camps/cj-
-stemm/cj-stemm-gateway-academy-summer-camp) in nearby Dayton, OH. The
-program targets grades 7-9 and strives to provide campers with a
-sampling of science, technology, math and medicine. Meg was interested
-in adding a session on software development. A couple emails and a
-phone call later, and we were on the schedule for a 90 minute session
-entitled simply, "Web Development with Ruby on Rails."
+Draeger, coordinator for [Chaminade Julienne Catholic High School's
+STEMM Summer Camp](http://www.cjeagles.org/youth-programs/summer-camps
+/cj-stemm/cj-stemm-gateway-academy-summer-camp) in nearby Dayton, OH.
+The program targets grades 7-9 and strives to provide campers with a
+sampling of science, technology, engineering, math and medicine. Meg
+was interested in adding a session on software development. A couple
+emails and a phone call later, and we were on the schedule for a 90
+minute session entitled simply, "Web Development with Ruby on Rails."
 
 ## Perfect Timing
 
@@ -28,8 +28,11 @@ content. We literally couldn't have done it without them. NOTE:
 They're just coming out of their private beta. So we encourage you to
 check them out!
 
-![Chaminade-Julienne High School Summer STEMM Camp](http://gaslight.github.io/posts/assets/images/2013-06-20-cjhs-stemm-camp.png)
-<p><center><em>Chaminade-Julienne Summer STEMM Camp attendees<br />running their Ruby on Rails application live on the Web.</em></center></p>
+![Chaminade-Julienne High School Summer STEMM
+Camp](http://gaslight.github.io/posts/assets/images/2013-06-20-cjhs-
+stemm-camp.png) <p><center><em>Chaminade Julienne Summer STEMM Camp
+attendees<br />running their Ruby on Rails application live on the
+Web.</em></center></p>
 
 ## CJ Eagle Pride!
 
