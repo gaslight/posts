@@ -38,9 +38,9 @@ Documentation is really good in Angular. In fact I'm sitting here reading it and
 realizing I haven't even scratched the surface of how cool this is. Here are
 some of my favorite pages:
 
-[Overview of Concepts](http://docs.angularjs.org/guide/concepts#view)
-[API](http://docs.angularjs.org/api)
-[Examples](http://angularjs.org/)
+- [Overview of Concepts](http://docs.angularjs.org/guide/concepts#view)
+- [API](http://docs.angularjs.org/api)
+- [Examples](http://angularjs.org/)
 
 There's not a huge learning curve for Angular. There are a few unfamiliar
 concepts that you run into early, and can read about. The "right way" to do
