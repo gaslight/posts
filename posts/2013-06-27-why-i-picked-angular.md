@@ -1,3 +1,5 @@
+![angularjs](http://gaslight.github.io/posts/assets/images/2013-06-18-why-i-picked-angular-01.png)
+
 I chose [AngularJS](http://angularjs.org/) because it seemed closer to what I know. 
 More like Backbone. [Data-binding](http://docs.angularjs.org/guide/dev_guide.templates.databinding)
 is touted as Angular's killer feature over Backbone, but there's a lot more to
