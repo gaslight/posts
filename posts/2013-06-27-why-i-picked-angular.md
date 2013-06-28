@@ -46,7 +46,7 @@ There's not a huge learning curve for Angular. There are a few unfamiliar
 concepts that you run into early, and can read about. The "right way" to do
 things isn't apparent at first, but it's up to you and you can go fast. That can
 be a double edged rope with which to hang yourself. Writing an Angular app was 
-enjoyable and painless and Angular does some cool, simple things that make sense.
+enjoyable and painless, and Angular does some cool simple things that make sense.
 
 Thanks to [Michael Ball](http://twitter.com/ballmw) for giving me some exposure 
 to this awesome tool.
