@@ -31,7 +31,7 @@ The Data problem is the arena of Angular [services](http://docs.angularjs.org/gu
 share things between controllers in your app. In my case it was a collection of
 Post models and a collection of Author models. That was my data and every
 controller in my app needed access to it. You hear a lot about dependency
-injection. Services is where that comes into play in Angular. When you define a
+injection. Services is where that comes into play. When you define a
 controller you also define what services it's going to need, and pass those in.
 
 Documentation is really good in Angular. In fact I'm sitting here reading it and
