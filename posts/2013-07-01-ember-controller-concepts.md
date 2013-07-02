@@ -74,29 +74,28 @@ We're telling `each` to use the `nameController` and to send the `select` action
 when an item is clicked.  The `select` action changes the `isSelected` property
 which is reflected in the template to the item get the `is-selected` class.
 
-But oh no! If we click another item it also gets selected without unselected the
-other one. [Try it out](http://jsbin.com/ikusok/3).
+But oh no! If we click another item it also gets selected without unselecting
+the other one. [Try it out](http://jsbin.com/ikusok/3).
 
-We need a way to unselect names. Let's introduce a controller to manage the
-list.
+We need a way to unselect names. Let's introduce an array controller to manage the
+array of names.
 
 ```coffee
 App.IndexController = Ember.ArrayController.extend
-  itemController: 'name'
-
   toggleSelect: (controller) ->
     @get('selectedName').unselect() if @get('selectedName')
     @set('selectedName', controller)
     controller.select()
 ```
 
-This warrants a few changes to the template. We're moving the `itemController`
-property into our new controller and we're calling our action `toggleSelect` to
-more explicitly describe our behavior.
+This warrants a change to the template. First we're calling our action
+`toggleSelect` to more explicitly describe our behavior. Next we're accepting
+the clicked controller as an argument to this function. We need this argument
+because without it the `IndexController` doesn't know which item was clicked.
 
 ```handlebars
 <ul>
-  {{#each}}
+  {{#each itemController="name"}}
     <li {{action toggleSelect controller}} {{bindAttr class="isSelected"}}>
       {{firstName}} {{lastName}}
     </li>
@@ -106,10 +105,11 @@ more explicitly describe our behavior.
 
 There's a lot going on in this new `action` call. The `toggleSelect` action gets
 sent up the chain of controllers all the way up the router unless something
-implements that method along the way. Also notice that we're passing in
-`controller` to action. This is important because we want to be setting properties on
-the controller, not the model itself. If we used `this`, the controller would be
-unwrapped and we would be working with the naked model.
+implements that method along the way. In this case, our `IndexController` will
+catch this call. Also notice that we're passing in `controller` to `action`. This
+is important because we want to set properties on the controller, not on the
+model itself. If we used `this`, the controller would be unwrapped and we would
+be working with the naked model.
 
 So [now check it out](http://jsbin.com/ucanam/255). It works!
 
