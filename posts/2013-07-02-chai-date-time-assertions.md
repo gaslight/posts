@@ -1,5 +1,7 @@
 # Chai Date and Time Assertions
 
+<div style="width:100%; text-align: center; padding: 30px 0px 30px 0px"><img src="http://gaslight.github.io/posts/assets/images/2013-07-02-chai-date-time-assertions-01.png"/></div>
+
 We are using [Konacha](https://github.com/jfirebaugh/konacha) and
 [Chai](http://chaijs.com/) on a project and we needed to compare a bunch of time
 values in our specs.
