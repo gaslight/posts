@@ -5,20 +5,22 @@ bunch of time values in our specs.
 
 ## Comparing dates and times in JavaScript
 
-I was growing very tired of calling getTime() on my expected and
-actual values.
+Date equality in JavaScript is not based on value.
 
 ```javascript
 var t1 = new Date(2013, 4, 30, 16, 5)
 var t2 = new Date(2013, 4, 30, 16, 5)
 
+t1 == t2 // => false
 t1 === t2 // => false
 t1.getTime() === t2.getTime() // => true
 ```
 
 ## Example Specs (Before)
 
-Here is what the specs were looking like before we added custom assertions.
+I was growing very tired of calling getTime() on my expected and
+actual values. Here is what the specs were looking like before we
+added custom assertions.
 
 ```javascript
 describe('time equality', function() {
