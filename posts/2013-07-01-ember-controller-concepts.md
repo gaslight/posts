@@ -1,9 +1,14 @@
 Ember Controller Concepts
 =========================
 
+<p>
+<img src="http://gaslight.github.io/posts/assets/images/2013-06-14-an-autosave-pattern-for-ember-and-ember-data-01.png"/>
+</p>
+
 I've been finding issues in an Ember application I'm working on where the author
 (me) didn't fully grasp Ember controllers. Here are a few controller concepts
 I've learned.
+
 
 Controller Concepts
 -------------------
