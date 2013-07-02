@@ -60,7 +60,7 @@ describe('failing time equality', function() {
 ## Custom Chai Assertions
 
 ```javascript
-chai.Assertion.addChainableMethod('time_equal', function(time) {
+chai.Assertion.addChainableMethod('equals_time', function(time) {
   var expected = time.getTime(),
       actual = this._obj.getTime();
 
@@ -71,7 +71,7 @@ chai.Assertion.addChainableMethod('time_equal', function(time) {
   );
 });
 
-chai.Assertion.addChainableMethod('date_equal', function(date) {
+chai.Assertion.addChainableMethod('equals_date', function(date) {
   var expectedYear  = date.getUTCFullYear(),
       expectedMonth = date.getMonth(),
       expectedDay   = date.getUTCDate(),
@@ -103,14 +103,14 @@ describe('better time equality', function() {
     var actual = new Date(2013, 4, 30, 16, 5),
         expected = new Date(2013, 4, 30, 16, 5);
 
-    actual.should.time_equal(expected);
+    actual.should.equals_time(expected);
   });
 
   it('returns false when they are not the same time', function() {
     var actual = new Date(2013, 4, 30, 16, 6),
         expected = new Date(2013, 4, 30, 16, 5);
 
-    actual.should.not.time_equal(expected);
+    actual.should.not.equals_time(expected);
   });
 });
 ```
@@ -123,7 +123,7 @@ describe('failing time equality', function() {
     var actual = new Date(2013, 4, 30, 16, 6),
         expected = new Date(2013, 4, 30, 16, 5);
 
-    actual.should.time_equal(expected);
+    actual.should.equals_time(expected);
   });
 });
 ```
@@ -140,7 +140,7 @@ describe('date equality', function() {
     var actual = new Date(2013, 4, 30, 16, 6),
         expected = new Date(2013, 4, 30);
 
-    actual.should.be.date_equal(expected);
+    actual.should.be.equals_date(expected);
   });
 });
 ```
