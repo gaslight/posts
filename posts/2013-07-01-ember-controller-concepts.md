@@ -1,3 +1,6 @@
+Ember Controller Concepts
+=========================
+
 I've been finding issues in an Ember application I'm working on where the author
 (me) didn't fully grasp Ember controllers. Here are a few controller concepts
 I've learned.
