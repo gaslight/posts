@@ -73,22 +73,14 @@ chai.Assertion.addChainableMethod('equalTime', function(time) {
 });
 
 chai.Assertion.addChainableMethod('equalDate', function(date) {
-  var expectedYear  = date.getUTCFullYear(),
-      expectedMonth = date.getMonth(),
-      expectedDay   = date.getUTCDate(),
-      actualYear    = this._obj.getUTCFullYear(),
-      actualMonth   = this._obj.getMonth(),
-      actualDay     = this._obj.getUTCDate();
-
-  function formatDate(year, month, day) {
-    return [year, month, day].join("-");
-  };
+  var expectedDate  = date.toDateString(),
+      actualDate    = this._obj.toDateString();
 
   return this.assert(
-    expectedYear === actualYear && expectedMonth === actualMonth && expectedDay === actualDay,
-    'expected ' + formatDate(actualYear, actualMonth, actualDay) + ' to equal' + formatDate(expectedYear, expectedMonth, expectedDay),
-    'expected ' + formatDate(actualYear, actualMonth, actualDay) + ' to not equal' + formatDate(expectedYear, expectedMonth, expectedDay)
-  );
+    expectedDate === actualDate,
+    'expected ' + actualDate + ' to equal' + expectedDate,
+    'expected ' + actualDate + ' to not equal' + expectedDate
+  )
 });
 ```
 
