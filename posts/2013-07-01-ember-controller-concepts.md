@@ -70,9 +70,10 @@ App.NameController = Ember.ObjectController.extend
     @set('isSelected', false)
 ```
 
-We're telling `each` to use the `nameController` and to send the `select` action
-when an item is clicked.  The `select` action changes the `isSelected` property
-which is reflected in the template to the item get the `is-selected` class.
+Fist we're telling `each` to use the `nameController` to wrap each name. Then we
+send the `select` action to the `nameController` when an item is clicked.  The
+`select` action changes the `isSelected` property which in turn adds the
+`is-selected` class to the `li` element.
 
 But oh no! If we click another item it also gets selected without unselecting
 the other one. [Try it out](http://jsbin.com/ikusok/3).
@@ -88,10 +89,12 @@ App.IndexController = Ember.ArrayController.extend
     controller.select()
 ```
 
-This warrants a change to the template. First we're calling our action
-`toggleSelect` to more explicitly describe our behavior. Next we're accepting
-the clicked controller as an argument to this function. We need this argument
-because without it the `IndexController` doesn't know which item was clicked.
+In this new controller we're calling our action `toggleSelect` to more
+explicitly describe our behavior. Next we're accepting the clicked controller as
+an argument to this function. We need this argument because without it the
+`IndexController` doesn't know which item was clicked.
+
+This warrants a change to the template.
 
 ```handlebars
 <ul>
