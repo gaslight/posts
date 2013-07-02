@@ -16,12 +16,9 @@ t1 === t2 // => false
 t1.getTime() === t2.getTime() // => true
 ```
 
-```javascript
-var t1 = new Date(2013, 4, 30, 16, 5)
-var t2 = new Date(2013, 4, 30, 16, 6)
-```
-
 ## Example Specs (Before)
+
+Here is what the specs were looking like before we added custom assertions.
 
 ```javascript
 describe('time equality', function() {
@@ -94,6 +91,8 @@ chai.Assertion.addChainableMethod('date_equal', function(date) {
 
 ## Example Specs (After)
 
+Here are the specs from above with less getTime() noise and better failure messages.
+
 ### Passing with less getTime() noise
 
 ```javascript
@@ -128,3 +127,18 @@ describe('failing time equality', function() {
 ```
 
     AssertionError: expected Thu May 30 2013 16:06:00 GMT-0400 (EDT) to equal Thu May 30 2013 16:05:00 GMT-0400 (EDT)
+
+### Date Assertions
+
+You can also compare dates regardless of their times.
+
+```javascript
+describe('date equality', function() {
+  it('compares dates regardless of their associated times', function() {
+    var actual = new Date(2013, 4, 30, 16, 6),
+        expected = new Date(2013, 4, 30);
+
+    actual.should.be.date_equal(expected);
+  });
+});
+```
