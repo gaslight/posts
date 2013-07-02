@@ -24,7 +24,7 @@ A Day in the Life of a Controller
 In this example I'm going to show a list of items and let the user select one at
 a time. This is a pretty common use case where controllers shine.
 
-First we'll setup a route with some dummy data and render the names in a list.
+First we'll setup a route with some dummy data and render a list of names.
 
 ```coffee
 App.IndexRoute = Ember.Route.extend
