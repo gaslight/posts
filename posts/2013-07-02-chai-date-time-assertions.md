@@ -1,9 +1,10 @@
 # Chai Date and Time Assertions
 
-We are using Konacha and Chai on a project and we needed to compare a
-bunch of time values in our specs.
+We are using [Konacha](https://github.com/jfirebaugh/konacha) and
+[Chai](http://chaijs.com/) on a project and we needed to compare a bunch of time
+values in our specs.
 
-## Comparing dates and times in JavaScript
+## Comparing Dates and Times in JavaScript
 
 Date equality in JavaScript is not based on value.
 
@@ -60,7 +61,7 @@ describe('failing time equality', function() {
 ## Custom Chai Assertions
 
 ```javascript
-chai.Assertion.addChainableMethod('equal_time', function(time) {
+chai.Assertion.addChainableMethod('equalTime', function(time) {
   var expected = time.getTime(),
       actual = this._obj.getTime();
 
@@ -71,7 +72,7 @@ chai.Assertion.addChainableMethod('equal_time', function(time) {
   );
 });
 
-chai.Assertion.addChainableMethod('equal_date', function(date) {
+chai.Assertion.addChainableMethod('equalDate', function(date) {
   var expectedYear  = date.getUTCFullYear(),
       expectedMonth = date.getMonth(),
       expectedDay   = date.getUTCDate(),
@@ -81,7 +82,7 @@ chai.Assertion.addChainableMethod('equal_date', function(date) {
 
   function formatDate(year, month, day) {
     return [year, month, day].join("-");
-  }
+  };
 
   return this.assert(
     expectedYear === actualYear && expectedMonth === actualMonth && expectedDay === actualDay,
@@ -103,7 +104,7 @@ describe('better time equality', function() {
     var actual = new Date(2013, 4, 30, 16, 5),
         expected = new Date(2013, 4, 30, 16, 5);
 
-    actual.should.equal_time(expected);
+    actual.should.equalTime(expected);
   });
 
   it('returns false when they are not the same time', function() {
@@ -123,7 +124,7 @@ describe('failing time equality', function() {
     var actual = new Date(2013, 4, 30, 16, 6),
         expected = new Date(2013, 4, 30, 16, 5);
 
-    actual.should.equal_time(expected);
+    actual.should.equalTime(expected);
   });
 });
 ```
@@ -140,7 +141,7 @@ describe('date equality', function() {
     var actual = new Date(2013, 4, 30, 16, 6),
         expected = new Date(2013, 4, 30);
 
-    actual.should.be.equal_date(expected);
+    actual.should.be.equalDate(expected);
   });
 });
 ```
