@@ -1,4 +1,4 @@
-# How to make a third of your conference attendance women
+# Encouraging Gender Diversity: 3 Reasons Why QCMerge Attracts Different Audiences
 
 In early May we helped put on [QCMerge](qcmerge.com), a conference hosted downtown in Cincinnati. The conference is designed to bring together developers, designers, entrepreneurs, marketers, and anyone else who makes a living on the web. This is a fairly unique approach to tech conferences, and what we've found is that it dramatically affects the gender diversity among attendees. It's no secret that this has been a problem in the web/software industry as a whole, and it's certainly obvious at most conferences. Female attendance under 5% at technical conferences is common. And if you go to many user groups, you can often find even fewer women there. We didn't want that to happen at QCMerge, so here's what we did to reverse that trend.
 
