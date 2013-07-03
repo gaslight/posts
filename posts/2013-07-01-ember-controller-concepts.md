@@ -1,5 +1,5 @@
-Ember Controller Concepts
-=========================
+Intermediate Ember Controller Concepts
+======================================
 
 <p>
 <img src="http://gaslight.github.io/posts/assets/images/2013-06-14-an-autosave-pattern-for-ember-and-ember-data-01.png"/>
