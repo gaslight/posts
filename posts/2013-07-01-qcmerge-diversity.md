@@ -1,4 +1,4 @@
-# Encouraging Gender Diversity: 3 Reasons Why QCMerge Attracts Different Audiences
+# Encouraging Gender Diversity: 3 Reasons Why QCMerge Attracts A Different Audience
 
 <p><img src="http://media.tumblr.com/3c458a733443896fc2c95e7bf7bade29/tumblr_inline_mn3x3qn4I91qz4rgp.png" alt="image"></p>
 
