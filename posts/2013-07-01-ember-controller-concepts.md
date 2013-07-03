@@ -78,7 +78,7 @@ App.NameController = Ember.ObjectController.extend
     @set('isSelected', false)
 ```
 
-Fist we're telling `each` to use the `nameController` to wrap each name. Then we
+First we're telling `each` to use the `nameController` to wrap each name. Then we
 send the `select` action to the `nameController` when an item is clicked.  The
 `select` action changes the `isSelected` property which in turn adds the
 `is-selected` class to the `li` element.
