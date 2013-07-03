@@ -84,7 +84,7 @@ send the `select` action to the `nameController` when an item is clicked.  The
 `is-selected` class to the `li` element.
 
 But oh no! If we click another item it also gets selected without unselecting
-the other one. [Try it out](http://jsbin.com/ikusok/3).
+the other one. [Try it out](http://jsbin.com/ikusok/5).
 
 We need a way to unselect names. Let's introduce an array controller to manage the
 array of names.
@@ -122,7 +122,7 @@ is important because we want to set properties on the controller, not on the
 model itself. If we used `this`, the controller would be unwrapped and we would
 be working with the naked model.
 
-So [now check it out](http://jsbin.com/ucanam/255). It works!
+So [now check it out](http://jsbin.com/ucanam/257). It works!
 
 However we have committed a huge sin without even realizing it. Even though it looks
 like we're changing the `isSelected` property on the controller we're actually
