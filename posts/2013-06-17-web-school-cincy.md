@@ -34,7 +34,7 @@ busy doing many things and really had no desire to own the program. So we
 asked if anyone else was interested in partnering with us to launch a program
 and Scott Baron from [Neo's local
 office](http://www.neo.com/offices/cincinnati) said to count him in. Erin
-Kidwell, then of [Girl Develop
+Kidwell, from [Girl Develop
 It](http://www.girldevelopit.com/chapters/cincinnati) said to count her in.
 Mike Bott of [The Brandery](http://www.brandery.org/) said he was interested
 too. So we all got together and started talking but despite our best
