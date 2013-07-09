@@ -4,43 +4,46 @@
 
 ##  The Windup...
 
-The number of "paid apprenticeship" schools has experienced a bit of a surge
-recently, especially in web development, and specifically those teaching [Ruby
-on Rails](http://rubyonrails.org/). This phenomenon is due largely to the
-realignment in the work force from material workers to information workers.
+The number of "paid apprenticeship" schools has experienced a bit of a surge recently, especially in web development, and specifically those teaching [Ruby on Rails](http://rubyonrails.org/). This phenomenon is due largely to the realignment in the work force from material workers to information workers.
 
-We've seen the demand for tech talent grow steadily and we're beginning to
-feel the pinch ourselves. Recruiters are becoming a more frequent "guest" at
-[Cincy RB](http://cincyrb.com/) which is kind of a new thing for Rubyists, at
-least locally, and it's not only recruiters but companies sponsoring meetings
-in order to pitch to attendees. We see this as a good problem to have but a
-problem nonetheless and one we feel capable of helping to address.
+We've seen the demand for tech talent grow steadily and we're
+beginning to feel the pinch ourselves. Recruiters are becoming a more
+frequent "guest" at [Cincy RB](http://cincyrb.com/) which is kind of a
+new thing for Rubyists, at least locally, and it's not only recruiters
+but companies sponsoring meetings in order to pitch to attendees. We
+see this as a good problem to have but a problem nonetheless and one
+we feel capable of helping to address.
 
-Gaslighters have established a tradition of teaching, from the inaugural
-Cincinnati Day of Ruby, to mentorship of students at several local high
-schools. We've spoken at regional and national software developer conferences
-and host the Cincinnati [iOS](http://www.meetup.com/CincyCocoaDev/),
-[Javascript](http://blog.cincijs.com/) and [Ruby](http://cincyrb.com/) user
-group meetings each month. From a training perspective, our current focus is
-the formation and guidance of the [Cincinnati Web Tech study
-group](https://plus.google.com/u/0/communities/101954958111273359715) which
-aims to introduce Web development to those who have an interest in the subject
-and provide support for their desire to explore the subject in greater depth.
+Gaslighters have established a tradition of teaching, from the
+inaugural Cincinnati Day of Ruby, to mentorship of students at several
+local high schools. We've spoken at regional and national software
+developer conferences and host the Cincinnati
+[iOS](http://www.meetup.com/CincyCocoaDev/),
+[Javascript](http://blog.cincijs.com/) and [Ruby](http://cincyrb.com/)
+user group meetings each month. From a training perspective, our
+current focus is the formation and guidance of the [Cincinnati Web
+Tech study
+group](https://plus.google.com/u/0/communities/101954958111273359715)
+which aims to introduce Web development to those who have an interest
+in the subject and provide support for their desire to explore the
+subject in greater depth.
 
 About a year ago, we began kicking around the idea of a
-[gSchool](http://www.gschool.it/)-like program here in Cincinnati but we were
-busy doing many things and really had no desire to own the program. So we
-asked if anyone else was interested in partnering with us to launch a program
-and Scott Baron from [Neo's local
-office](http://www.neo.com/offices/cincinnati) said to count him in. Erin
-Kidwell, from [Girl Develop
-It](http://www.girldevelopit.com/chapters/cincinnati) said to count her in.
-Mike Bott of [The Brandery](http://www.brandery.org/) said he was interested
-too. So we all got together and started talking but despite our best
-intentions little else happened. Then we talked to Jeff Casimir, co-creator of
-[Hungry Academy](http://hungryacademy.com/) and
-[gSchool](http://www.gschool.it/) and it became evident that if anything were
-going to be done we simply had to stop talking and start doing.
+[gSchool](http://www.gschool.it/)-like program here in Cincinnati but
+we were busy doing many things and really had no desire to own the
+program. So we asked if anyone else was interested in partnering with
+us to launch a program and [Scott Baron](https://twitter.com/rubyist) from [Neo's local
+office](http://www.neo.com/offices/cincinnati) said to count him in.
+[Erin Kidwell](https://twitter.com/erinmkidwell), from [Girl Develop
+It](http://www.girldevelopit.com/chapters/cincinnati) said to count
+her in. [Mike Bott](https://twitter.com/mcbott) of [The Brandery](http://www.brandery.org/) said he
+was interested too. So we all got together and started talking but
+despite our best intentions little else happened. Then we talked to
+[Jeff Casimir](https://twitter.com/j3), co-creator of [Hungry
+Academy](http://hungryacademy.com/) and
+[gSchool](http://www.gschool.it/) and it became evident that if
+anything were going to be done we simply had to stop talking and start
+doing.
 
 ## The Pitch...
 
@@ -73,7 +76,7 @@ So we're seeking sponsors and students for [Web School
 Cincy](http://signup.webschoolcincy.com/). Don't worry, that's just a working
 name. You can sign up today and we'll keep you in the loop with all the latest
 developments. Just visit
-[signup.webschoolcincy.com](http://signup.webschoolcincy.com/)and leave us
+[signup.webschoolcincy.com](http://signup.webschoolcincy.com/) and leave us
 your email address or email us at
 [info@webschoolcincy.com](mailto:info@webschoolcincy.com) and tell us how
 you'd like to be involved.
