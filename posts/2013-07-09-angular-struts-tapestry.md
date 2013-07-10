@@ -62,7 +62,7 @@ developers.
 The component approach of angular also has also resulted in a similarly
 ecosystem of reusable components. Though I've heard developers scoff at the
 idea of a component library being valuable, as a wise friend once remarked:
-"No code is faster than code". Though he was talking about performance, it
+"No code is faster than no code". Though he was talking about performance, it
 applies to development as well: nothing less time to develop that something I
 don't have to write at all. My experience so far working with angular
 directives has been very productive.
