@@ -1,10 +1,16 @@
-# Chai Date and Time Assertions
+# How We Handled the Problem of JS Date/Time Equality 
 
 <div style="width:100%; text-align: center; padding: 30px 0px 30px 0px"><img src="http://gaslight.github.io/posts/assets/images/2013-07-02-chai-date-time-assertions-01.png"/></div>
 
 We are using [Konacha](https://github.com/jfirebaugh/konacha) and
 [Chai](http://chaijs.com/) on a project and we needed to compare a bunch of time
-values in our specs.
+values in our specs. This post describes some of the pain we experienced testing JS Date/Time equality, 
+and what we did about it. As a result of this work, we've released a Chai plugin for datetime assertions 
+that you can find here:
+
+###Chai-Datetime 
+- [Github Repo](https://github.com/gaslight/chai-datetime)
+- [NPM Package](https://npmjs.org/package/chai-datetime)
 
 ## Comparing Dates and Times in JavaScript
 
@@ -139,3 +145,7 @@ describe('date equality', function() {
   });
 });
 ```
+
+### Conclusion
+
+Too much detail? Go check out the [README](https://github.com/gaslight/chai-datetime) and jump in!
