@@ -15,3 +15,5 @@ Simple example of a common problem. How do you store the value of a certain piec
 Rails has extensions like [acts_as_audited](https://github.com/collectiveidea/acts_as_audited) that we've used with some success. Audit tables back model tables, storing attribute changes as data structures. And the idea of querying based on time is not new. Micheal Guterl pointed out to me the term "bitemporal databases". There are seemingly a few out there, and  a bitemporal package for Postgres.   
 
 My feeling is that Datomic might provide the easiest and most elegant solution to getting that type of information. In Diametric I watched Yoko pass a time object to the database and then query it in it's entirety as_of that moment in time. It's baked in. Data is always preserved, the past never changes, and time is always something you can query on.
+
+I'm a fan of writing about things I have no practical knowledge of. I'm interested in hearing thoughts and experiences on Datomic, Diametric, or temporal databases.
