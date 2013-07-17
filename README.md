@@ -1,8 +1,11 @@
 # Posts
 
-This repo contains all of our blog content in Markdown format. Why? Becuase
+The "posts" branch contains all of our blog content in Markdown format. Why? Becuase
 we're not exactly sure where it's all going to live and it's nice to keep
 everything in one place no matter where it gets published.
+
+Avoid the master branch in this repository!! The reason is the Google will penalize
+our blog site for duplicate content it finds here.
 
 We can also use a familiar workflow to write, edit and submit content -- Pull
 Requests!
@@ -10,12 +13,13 @@ Requests!
 ## How to submit
 
 1. Clone the repo.
-1. Create a branch.
-1. Create the post and write write write. Commit often.
-1. Ready? Fetch and rebase interactively against origin. Your new post should
-   be a single commit.
+1. Checkout the "posts" branch
+1. Create a new branch.
+1. Create the post in posts/ and write write write. Commit often.
 1. Push the branch
 1. Visit Github and click "Pull Request" under "your recently pushed branches"
+1. Github will try to compare this pull request against master. Click "Edit" and change "master" to "posts". Then, "Click to create a pull request for this comparison"
+1. Ask some people to take a look
 
 ## Editing
 
