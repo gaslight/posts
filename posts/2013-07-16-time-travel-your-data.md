@@ -1,6 +1,6 @@
 ![time travel your data](http://gaslight.github.io/posts/assets/images/time-travel-your-data.png)
 
-I wanted to get my thoughts down about a recent talk I gave here at the Gaslight Office about [Datomic](http://www.datomic.com/). It was inspired by a [talk](http://www.youtube.com/watch?v=1E_n47ct280) given at RailsConf 2013 by Yoko Harada about Datomic, and Relevance's [Diametric Gem](https://github.com/relevance/diametric).
+I wanted to get my thoughts down about a recent talk I gave here at the Gaslight Office about [Datomic](http://www.datomic.com/). It was inspired by a [talk](http://www.youtube.com/watch?v=1E_n47ct280) given at RailsConf 2013 by Yoko Harada introducing Relevance's [Diametric Gem](https://github.com/relevance/diametric), which provides a Ruby interface to Datomic.
 
 Datomic is database written in Clojure and designed by Rich Hickey. I haven't scratched the surface of what it can do, but the intriguing aspect of Datomic for me was the immutable nature of the data, and what that could do for you.
 
