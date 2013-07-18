@@ -26,9 +26,9 @@ build things.
 
 ### Design
 
-When the blog was hosted on tumblr, editing the theme was basically a
-nightmare. Yes, I know about Fumblr. And thumblr. And all the other
-half-baked attempts at replicating the tumblr API locally. It's just too
+When the blog was hosted on Tumblr, editing the theme was basically a
+nightmare. Yes, I know about Fumblr. And Thumblr. And Thimblr. And all the other
+half-baked attempts at replicating the Tumblr API locally. It's just too
 hard.
 
 Our design team works in Rails apps everyday. In less than a week, we
@@ -38,12 +38,12 @@ something that uses all our brand styles out of the box.
 ### Posting
 
 We write our posts in Markdown and edit them on GitHub. We like the pull
-request work flow for others to proofread and suggest edits. Sometimes
+request work flow for notifying others to proofread and suggest edits. Sometimes
 we'll suggest something that might have been missed.
 
 Once we're finished editing, [Joel][joel] posts the article to the blog
 on his schedule. Tumblr makes that really hard, since Joel couldn't log
-in as me and set things up. We're just using ActiveAdmin, so it's stupid
+in and post the article as the author. We're just using ActiveAdmin, so it's stupid
 simple.
 
 ### Contributing
@@ -51,12 +51,20 @@ simple.
 It's now really easy for anyone on the team to suggest a change. It's
 open source, after all. Make a change, submit a pull request. Bam!
 
+### Data
+
+We're no longer beholden to the Tumblr API, we own all of our data now.
+We like to mix Google Analytics data with author data, which is notoriously missing
+from the Tumblr API. Now, we can attach that and any other arbitrary data we want to!
+Did this post generate a lead? Let's track that!
+
 ### Engagement
 
 We have a ton of great content on the blog and podcast. I want to learn
 how to make it more useful to move around and see related posts. I can
-do that now. I could even do some A/B testing with something like
-[Vanity][vanity], too!
+do that now. Not to mention, we can roll out and define our own search 
+functionality to increase that engagement. I could even do some A/B testing 
+with something like [Vanity][vanity], too!
 
 ### Redirection
 
