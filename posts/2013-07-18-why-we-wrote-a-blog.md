@@ -1,4 +1,4 @@
-# Why We Wrote a Blog
+![blog](http://gaslight.github.io/posts/assets/images/blog.png)
 
 We just shipped a new version of our blog. It's a [Rails app][app]. It's
 not some fancy-pants, johnny-come-lately static site generator. Why on
