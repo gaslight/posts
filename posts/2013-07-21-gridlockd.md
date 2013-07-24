@@ -14,7 +14,7 @@ We use a tool called Code Climate to "grade" the quality and flexibility of the 
 
 It's exciting to see your clients start to get excited. The outset of this type of engagement can be a little tense as we try to understand how each other work, and forward progress isn't always easily apparent. In the meantime, we go to work with a jackhammer. At some point we get over the hump, the dam cracks open, and then it's gushing. Sweet, cold, thirst-quenching features. It's awesome to be able to provide that.
 
-Software projects never suffer due to technology limitations. Managing and guiding the process is the hard part. It's our job to be knowledgeable about how to do that successfully, and to pass that knowledge on to everybody we work with. It's the difference between giving a fish, and teaching to fish.
+Software projects never suffer due to technology limitations. Managing and guiding the process is the hard part. It's our job to be knowledgeable about how to do that successfully, and to pass that knowledge on to everybody we work with. It's the difference between giving a fish, and teaching to fish. Teaching is rewarding and learning is valuable.
 
 ## Conclusion
 
