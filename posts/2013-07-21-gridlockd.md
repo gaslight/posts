@@ -18,4 +18,4 @@ Software projects never suffer due to technology limitations. Managing and guidi
 
 ## Conclusion
 
-Working on a gridlocked application never fails to present it's own set of unique problems and challenges from both a code and project standpoint. Interesting problems and challenges are what good developers are all about. Overcoming these challenges can require a bit of faith for the product owner, but when the value of the application is proven, the payoff in happiness that comes from refactoring, updating, and paying off technical debt is a huge win for both the project owner and the development team.
+Working on a gridlocked application never fails to present it's own set of unique problems and challenges from both a code and project standpoint. Interesting problems and challenges are what good developers are all about. Overcoming these challenges can require a bit of faith for the product owner, but when the value of the application is proven, the payoff in happiness and momentum is a huge win for everyone involved.
