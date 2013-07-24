@@ -6,7 +6,7 @@ You'll often hear groans and moans in developer circles about the prospect of wo
 
 ## Developer Win
 
-Chances are if a project has lived on to be brown field, then it's value has already been proven and defined. Developers gain an inherit focus and drive on projects where the value is apparent. Developers looking to hone their skills can't do much better than learning how to work within, understand, and re-shape an existing codebase. In the course of a development career this kind of work is more often the rule than the exception, and knowing how to approach it is a valuable skill.
+Chances are if a project has lived on to be brown field, then it's value has already been proven and defined. Developers gain an inherent focus and drive on projects where the value is apparent. Developers looking to hone their skills can't do much better than learning how to work within, understand, and re-shape an existing codebase. In the course of a development career this kind of work is more often the rule than the exception, and knowing how to approach it is a valuable skill.
 
 We use a tool called Code Climate to "grade" the quality and flexibility of the code we write. Working a Code Climate GPA from a "0.8" to a "2.01" to a "3.98" is a progression of small victories. I think most developer's secret love is refactoring. Maybe that's a geek post for another day.
 
