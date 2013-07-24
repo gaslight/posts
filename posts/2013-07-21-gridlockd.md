@@ -1,4 +1,4 @@
-![Breaking Open Gridlocked Rails Applications](http://gaslight.github.io/posts/assets/images/alex.jpg)
+![Breaking Open Gridlocked Rails Applications](http://gaslight.github.io/posts/assets/images/gridlockd.png)
 
 It's not sexy work, but there are hundreds of companies out there with old gridlocked Rails apps. Developed by people who have moved on, or by intact teams who haven't put a priority on paying down technical debt. These are companies doing good business but struggling to innovate.
 
