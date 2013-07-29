@@ -46,7 +46,7 @@ On the flipside, you don't need to be one of those des/dev demi-gods to work wit
   
   <b>bundle</b> If I get any sort of error screen at all when I run the project, I tell the project to bundle. Since I work in Ruby projects, this command goes out and fetches all the gems (tricky bits of code) that the project may use.
   
-  <b>rails s</b> This is how I get a rails project running so I can see it in the browser. You can also cheat and use <a href="http://pow.cx/">Pow</a> running on<a href="http://anvilformac.com/">Anvil</a>, although this gets developers cranky. 
+  <b>rails s</b> This is how I get a rails project running so I can see it in the browser. You can also cheat and use <a href="http://pow.cx/">Pow</a> running on <a href="http://anvilformac.com/">Anvil</a>, although this gets developers cranky. 
 
 
 ## Conclusion
