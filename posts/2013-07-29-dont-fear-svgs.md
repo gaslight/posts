@@ -1,16 +1,18 @@
 # Angular backed SVGs
 
-SVGs are super cool. They're really small compared to a raster graphics, and they're dynamic.
+[Scalable Vector Graphics](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) are super cool. They're really small compared to raster graphics, and they're dynamic.
 
 We recently did a project that needed a set of line graphs that look like this:
 
-<img src="graph.png"/>
+<img src="http://gaslight.github.io/posts/assets/images/svg_graph.png"/>
 
 My immediate thought was to use an charting library like [NVD3.js](http://nvd3.org/) or [Raphael.js](http://raphaeljs.com/). We settled on NVD3.js, but it quickly became clean that the library was getting in our way.
 
 ## SVGs are just HTML!
 
-SVGs are just HTML with some additional elements and attributes. We work in HTML every day and we're really good at it. When using NVD3(or D3, Raphael, etc.), I found myself doing things like `.attr("stroke-width", "2px")` and `.attr("fill", "#fff")`. Then it dawned on me... wait a sec, I'm writing HTML with javascript! Haven't we decided that that's a really bad idea? On top of that, the HTML coming out had all these nasty in-line styles and useless wrapper elements. What am I doing?
+SVG is an XML specification that is supported by all modern web browsers. As such, you can drop it into any HTML page and it just works, and just like HTML, you can interact with it's elements using CSS. You can think of it as HTML with it's own set of elements and attributes for the purpose of drawing things.
+
+We work in HTML every day and we're really good at it. When using NVD3(or D3, Raphael, etc.), I found myself doing things like `.attr("stroke-width", "2px")` and `.attr("fill", "#fff")`. Then it dawned on me... wait a sec, I'm writing HTML with JavaScript! Haven't we decided that that's a really bad idea? On top of that, the HTML coming out had all these nasty in-line styles and useless wrapper elements. What am I doing?
 
 So I started over and just wrote the SVG the way I wanted it:
 
@@ -24,7 +26,7 @@ So I started over and just wrote the SVG the way I wanted it:
 </svg>
 ```
 
-Simple, and I can get it looking nice with just a couple css rules:
+Simple, and I can get it looking nice with just a couple CSS rules:
 
 ```css
 chart__content{
@@ -42,7 +44,7 @@ chart__content{
 }
 ```
 
-The key here is we're separating markup from presentation. No more defining colors in javascript. All out styles happen in css, and our markup is clear and clean.
+The key here is we're separating markup from presentation. No more defining colors in JavaScript. All our styling happens in CSS, and our markup is clear and clean.
 
 Here's the [complete JSBin](http://jsbin.com/imocuf/22)
 
@@ -93,7 +95,7 @@ App.controller('GpaController', function($scope){
 ```
 Here's the [complete JSBin](http://jsbin.com/ujasub/10)
 
-The cool part is that our chart updates whenever `points` change.
+The cool part is that our chart updates whenever `points` changes.
 
 This is a fairly static example. In our actual implementation, we dynamically calculated the chart size at runtime and calculated x and y points based an array of models. We also distilled the chart down into directives so we could just say something like `<line-chart data="{{points}}">`
 
