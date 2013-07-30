@@ -1,18 +1,18 @@
-# Don't fear SVGs!
+# Angular backed SVGs
 
-SVGs are super cool. They're great for icons, charts and just about anything else. They're really small compared to a raster graphics, and they can change on the fly.
+SVGs are super cool. They're really small compared to a raster graphics, and they're dynamic.
 
-We recently did a an internal project that needed a set of line graphs. Kristin put together a really great design for the graphs.
+We recently did a project that needed a set of line graphs that look like this:
 
 <img src="graph.png"/>
 
-My immediate thought was to use an charting library like [NVD3.js](http://nvd3.org/) or [Raphael.js](http://raphaeljs.com/). We settled on NVD3.js, but after a few days we started seeing some issues ***.
+My immediate thought was to use an charting library like [NVD3.js](http://nvd3.org/) or [Raphael.js](http://raphaeljs.com/). We settled on NVD3.js, but it quickly became clean that the library was getting in our way.
 
-## It's just HTML!
+## SVGs are just HTML!
 
-SVG is just HTML with some additional elements and attributes. We work in HTML every day, and we're good at making it clean and concise. When using NVD3, I found myself doing things like `.attr("stroke-width", "2px")` and `.attr("fill", "#fff")`. Then it dawned on me... wait a sec, I'm writing HTML with in javascript! Haven't we learned that that's a really bad idea? On top of that, the HTML coming out had all these nasty in-line styles and useless wrapper elements. What am I doing?
+SVGs are just HTML with some additional elements and attributes. We work in HTML every day and we're really good at it. When using NVD3(or D3, Raphael, etc.), I found myself doing things like `.attr("stroke-width", "2px")` and `.attr("fill", "#fff")`. Then it dawned on me... wait a sec, I'm writing HTML with javascript! Haven't we decided that that's a really bad idea? On top of that, the HTML coming out had all these nasty in-line styles and useless wrapper elements. What am I doing?
 
-So I started over and just wrote the svg the way I wanted it:
+So I started over and just wrote the SVG the way I wanted it:
 
 ```html
 <svg xmlns="http://www.w3.org/2000/svg" class="chart__content">
@@ -24,7 +24,7 @@ So I started over and just wrote the svg the way I wanted it:
 </svg>
 ```
 
-Simple, and I can get it looking alright with just a couple css rules:
+Simple, and I can get it looking nice with just a couple css rules:
 
 ```css
 chart__content{
@@ -48,7 +48,7 @@ Here's the [complete JSBin](http://jsbin.com/imocuf/22)
 
 ## But what about dynamic data?
 
-You'll notice that we're duplicating our point coordinates to draw both the line and the circles, and we have that nasty path string in our html. Thats where a JS framework like Angular or Ember comes in. By binding a couple attributes, we can get a dynamic chart that's backed by real data. This example is in Angular, but it'll translates to anything.
+You'll notice that we're duplicating our point coordinates to draw both the line and the circles, and we have that nasty path string in our html. Thats where Angular comes in. By binding a couple attributes, we can get a dynamic chart that's backed by real data. Although this example is in Angular, it translates well to other js frameworks like [Ember](http://emberjs.com/) or [Backbone](http://backbonejs.org/).
 
 We add bindings to our HTML:
 
@@ -64,7 +64,7 @@ We add bindings to our HTML:
 </svg>
 ```
 
-And add our controller:
+And in our controller:
 
 ```javascript
 window.App = angular.module('App', []);
@@ -94,3 +94,8 @@ App.controller('GpaController', function($scope){
 Here's the [complete JSBin](http://jsbin.com/ujasub/10)
 
 The cool part is that our chart updates whenever `points` change.
+
+This is a fairly static example. In our actual implementation, we dynamically calculated the chart size at runtime and calculated x and y points based an array of models. We also distilled the chart down into directives so we could just say something like `<line-chart data="{{points}}">`
+
+If you need highly complex charts with animations and such, then maybe a full-fledged SVG library is the right choice. But if also you need is a simple, custom chart, then I'd recommend starting with just writing your own SVGs. That would have saved me a big headache.
+
