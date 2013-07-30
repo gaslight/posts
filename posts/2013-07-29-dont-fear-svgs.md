@@ -46,7 +46,7 @@ chart__content{
 
 The key here is we're separating markup from presentation. No more defining colors in JavaScript. All our styling happens in CSS, and our markup is clear and clean.
 
-Here's the [complete JSBin](http://jsbin.com/imocuf/22)
+Here's the [complete JSBin](http://jsbin.com/imocuf/latest/edit)
 
 ## But what about dynamic data?
 
@@ -88,7 +88,7 @@ App.controller('GpaController', function($scope){
   };
 });
 ```
-Here's the [complete JSBin](http://jsbin.com/ujasub/10)
+Here's the [complete JSBin](http://jsbin.com/ujasub/latest/edit)
 
 The cool part is that our chart updates whenever the `points` data changes.
 
