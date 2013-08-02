@@ -9,9 +9,10 @@ available services were sorely lacking. Most are written in Flash so they can't 
 an iOS device, most of them were not customizable.
 
 Twallaby is a customizable tweet wall written in standard HTML, CSS, and JavaScript. It couldn't
-be simpler to use. Just visit [twallaby.com](http://twallaby.com/) and enter any number of search
-term to see it in action. 
+be simpler to use. Just visit [twallaby.com](http://twallaby.com/) and enter some search
+terms to see it in action. 
 
 Twallaby is freely available to use. Running your own event? Soon you'll be able to sign up for 
 Twallaby's paid service so that you can promote your sponsors, change themes and use cool new 
-features we're adding.
+features we're adding. We'll be keeping everybody up to date over at 
+[@HeyTwallaby](https://twitter.com/HeyTwallaby), follow us!
