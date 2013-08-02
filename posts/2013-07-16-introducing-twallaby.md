@@ -15,4 +15,4 @@ terms to see it in action.
 Twallaby is freely available to use. Running your own event? Soon you'll be able to sign up for 
 Twallaby's paid service so that you can promote your sponsors, change themes and use cool new 
 features we're adding. We'll be keeping everybody up to date over at 
-[@HeyTwallaby](https://twitter.com/HeyTwallaby), follow us!
+[@HeyTwallaby](https://twitter.com/HeyTwallaby). Follow us!
