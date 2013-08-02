@@ -93,4 +93,15 @@ This works fine, but there's another undocumented (AFAIK) way you can give templ
 
 Everything works as before.
 
+To mangle or not to mangle
+--------------------------
 
+There are two different syntaxes for telling angular what dependencies you need injected. In order to be consistently inconsistent, I've used both in this post. One is to define an array where the first arguments are the names of the dependencies and the last is the function. The Car examples above use this more verbose syntax. The other, more concise syntax is to define your function with parameter names that map to services or factories and tell angular essentially, "figure it out for me wouldya." The randomizer examples show how this looks.
+
+But this breaks down if you use a javascript minifier that mangles (or renames) your variables. This is the default for Rails in production environments, but it's easy to turn off. Go into your production.rb file and add this line:
+
+````ruby
+config.assets.js_compressor = Uglifier.new(mangle: false)
+````
+
+And voila, at the cost of a few more characters in your minified javascript, you can use the more concise syntax.
