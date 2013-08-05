@@ -33,7 +33,7 @@ App.controller 'RandomCtrl', ($scope, randomizer)->
   $scope.random = 0
 ````
 
-This is a great way to share code between multiple controllers (or anything else in your app). Services are singletons, it's worth pointing out, so not the based place to put logic that's belongs to something you want multiple instances of.
+This is a great way to share code between multiple controllers (or anything else in your app). Services are singletons, it's worth pointing out, so not the best place to put logic that's belongs to something you want multiple instances of.
 
 Angular models as Coffeescript classes
 --------------------------------------
@@ -50,7 +50,7 @@ angular.module('App').factory 'Car', ['railsResourceFactory', (railsResourceFact
 ]
 ````
 
-The end result of all this is Car "class" you can use to create new instances. However, it wasn't at all obvious to us initially where to put methods on Car. It turns out to be easier than we thought. We can make a coffeescript class that extends from the class function that railsResourceFactory creates. Since we then have a plain ole coffeescript class, we can add methods to it just like any other class. Our factory just returns the coffeeecript class. This is what it looks like:
+The end result of all this is a Car "class" you can use to create new instances. However, it wasn't at all obvious to us initially where to put methods on Car. It turns out to be easier than we thought. We can make a coffeescript class that extends from the class function that railsResourceFactory creates. Since we then have a plain ole coffeescript class, we can add methods to it just like any other class. Our factory just returns the coffeeecript class. This is what it looks like:
 
 ````coffeescript
 angular.module('App').factory 'Car', ['railsResourceFactory', (railsResourceFactory) ->
