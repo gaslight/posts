@@ -1,6 +1,8 @@
 Lessons from our first Angular on Rails app
 ===========================================
 
+![angular on rails](http://gaslight.github.io/posts/assets/images/train_rails.png)
+
 We've been working on one of our first Angular projects with a Rails backend. It's been a great experience. I wanted to share a few things we learned that we hope are helpful to others building Angular on Rails apps.
 
 Skinny controllers in Angular
