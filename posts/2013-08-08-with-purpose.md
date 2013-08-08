@@ -28,13 +28,13 @@ We love to learn.  Learning new things is the great undiscovered country of the 
 
 Building apps that build businesses is what we do everyday.  At this stage of our company, building great things is the core value that we deliver on that let's us exist as a business.  Our purpose is to partner with our clients.  We really want to be involved in their businesses, so that we can build the tools that will really help them grow.  This is how we deliver on what we learn.
 
-We love to share.  Learning is what we do for ourselves.  Building is what we do for our clients, but sharing is what we do to help make our community better.  We've always been involved in hosting and organizing user groups.  We speak at conferences, we even host one. We mentor startups from time to time.  We train people in the technologies we're passionate about.  We see sharing knowledge as central to our culture and to being a worthy member of our community.
+We love to share.  Learning is what we do for ourselves.  Building is what we do for our clients, but sharing is what we do to help make our community better.  We've always been involved in hosting and organizing user groups.  We speak at conferences, we even host one. We mentor startups from time to time.  We train others in the technologies we're passionate about.  We see sharing knowledge as central to our culture and to being a worthy member of our community.
 
-Producing great things is the tangible result, but who is our community?  We couldn't limit our core purpose to just our creative community.  We couldn't limit our core purpose to our clients.  We believe that anyone, whether it be a developer, a designer, a startup, or a multi-million dollar company, that is interested in learning, building and sharing great things are part of our community.  This is the community we're inspired to be a part of and to make a significant contribution.
+Producing great things is the tangible result, but who is our community?  We couldn't limit our core purpose to just our creative community.  We couldn't limit our core purpose to our clients.  We believe that anyone, whether it be a developer, a designer, a startup, or a multi-million dollar company, that is truly interested in learning, building and sharing great things are part of our community.  This is the community we're inspired to be a part of and to make a significant contribution.
 
-We left that weekend partner retreat happy with what we accomplished and eager to share it with our team members and our community at large.  The sobering fact is we know this is just one step in a larger work of really casting a vision that will lead us to be what we aspire to be, a great company.
+We left that partner retreat happy with what we accomplished and eager to share it with our team members and our community at large.  The sobering fact is we know this is just one step in a larger work of really casting a vision that will lead us to be what we aspire to be, a great company.
 
-The next step is to define the core values that we already live each day, then define our envisioned future.  This is uncharted territory for me personally, but I'm excited about the discovery.
+The next step is to define the core values that we already live each day, then define our envisioned future.  We have a company-wide retreat coming up in September, and I'm eager to hear from our whole team what they envision for Gaslight's future.  This is uncharted territory for me personally, but I'm excited about the discovery.
 
 
 
