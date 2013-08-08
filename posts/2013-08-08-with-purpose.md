@@ -1,10 +1,10 @@
-With Purpose
+# With Purpose
 
-In July of 2009, 6 people began talking about how they might start something in Cincinnati where they could have better control over how software is built and shipped.  I was fortunate to be one of the six in this conversation, and by October 2009, Gaslight was born.
+In July of 2009, six people began talking about how they might start something in Cincinnati where they could have better control over how software is built and shipped.  I was fortunate to be one of the six in this conversation, and by October 2009, Gaslight was born.
 
 Some of us were working as freelancers, building software for clients out of our home offices.  Managing deliverables to clients and having to work a sales pipeline to keep the bills paid.  Some of us were working for other employers, and although we didn't have to kill to eat, we were forced into situations that we knew wasn't the right way to do things, but with no power to say so.  Both worlds being somewhat different, but with common threads.  Each of us wanted to do the best work we knew how, without boundaries we didn't set.  We decided as a group of 6, if we wanted to do better, we could do better together.
 
-Fast forward 4 years.
+Fast forward 4 years...
 
 In late spring, in a cabin in the middle of Red River Gorge, the six of us owners sat looking at each other coming to terms with something we hadn't really set out to do.  In the beginning, we thought we'd just use our common bonds to work together and help one another by sharing the responsibilities of client delivery and sales.  A cooperative of like minded people working for the common good.  As we looked at each other we knew that what Gaslight had become was much more than this.  We were 15 people strong.  Everyone was a W-2 employee, including the partners.  We had health insurance.  We had an office twice the size of our original digs.  We were becoming a real company and we hadn't caught up to the fact that as owners, we were responsible for a real company.
 
@@ -12,14 +12,13 @@ As we sat in that cabin thinking about what all this meant, the obvious question
 
 Fortunately, other people have been willing to share their processes and experiences, and from that I've learned from them, in order to arrive at a vision for Gaslight that inspires and motivates all of us, we needed to define who we are and where we want to go using the following formula:
 
-Core Ideology + Envisioned Future = Vision
+**Core Ideology + Envisioned Future = Vision**
 
 In order to get to an inspiring vision, we first needed to define our core ideology.  Specifically, why do we exist (core purpose) and what do we stand for (core values)?  We obviously were living with purpose and values, or we would have failed long ago, but what were they?  We'd never tried to define them.  We decided no one was leaving that weekend without at least defining the reason why Gaslight exists, our Core Purpose.
 
 We talked a lot about what was important to us.  Why we make decisions the way we do.  What was important and inspiring to everyone in the company.  Why did we gravitate to certain work and activities and not others.  It took us all weekend, but we did it.  We accomplished what we set out to do, and that was define in writing why Gaslight exists.  This is what we came up with, and what guides us today:
 
-Core Purpose
-"Gaslight exists to inspire creators to learn, build, and share great things with our community."
+> "Gaslight exists to inspire creators to learn, build, and share great things with our community."
 
 Why did this make sense for us?  Why the three pillars of learning, building, and sharing?  What does community mean?  Glad you asked!
 
