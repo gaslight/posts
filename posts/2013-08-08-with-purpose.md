@@ -2,7 +2,7 @@
 
 In July of 2009, six people began talking about how they might start something in Cincinnati where they could have better control over how software is built and shipped.  I was fortunate to be one of the six in this conversation, and by October 2009, Gaslight was born.
 
-Some of us were working as freelancers, building software for clients out of our home offices.  Managing deliverables to clients and having to work a sales pipeline to keep the bills paid.  Some of us were working for other employers, and although we didn't have to kill to eat, we were forced into situations that we knew wasn't the right way to do things, but with no power to say so.  Both worlds being somewhat different, but with common threads.  Each of us wanted to do the best work we knew how, without boundaries we didn't set.  We decided as a group of 6, if we wanted to do better, we could do better together.
+Some of us were working as freelancers, building software for clients out of our home office, managing deliverables to clients and having to work a sales pipeline to keep the bills paid.  Some of us were working for other employers, and although we didn't have to kill to eat, we were forced into situations that we knew weren't the right way to do things, but with no power to say so.  Both worlds being somewhat different had plenty of common threads.  Each of us wanted to do the best work we knew how, without boundaries we didn't set.  We decided as a group of 6, if we wanted to do better, we could do better together.
 
 Fast forward 4 years...
 
