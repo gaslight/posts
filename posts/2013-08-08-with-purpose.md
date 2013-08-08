@@ -12,7 +12,7 @@ As we sat in that cabin thinking about what all this meant, the obvious question
 
 Fortunately, other people have been willing to share their processes and experiences, and from that I've learned from them, in order to arrive at a vision for Gaslight that inspires and motivates all of us, we needed to define who we are and where we want to go using the following formula:
 
-**Core Ideology + Envisioned Future = Vision**
+## Core Ideology + Envisioned Future = Vision**
 
 In order to get to an inspiring vision, we first needed to define our core ideology. Specifically, why do we exist (core purpose) and what do we stand for (core values)? We obviously were living with purpose and values, or we would have failed long ago, but what were they? We'd never tried to define them. We decided no one was leaving that weekend without at least defining the reason why Gaslight exists, our Core Purpose.
 
