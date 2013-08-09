@@ -1,8 +1,10 @@
 # With Purpose
 
-In July of 2009, six people began talking about how they might start something in Cincinnati where they could have better control over how software is built and shipped. I was fortunate to be one of the six in this conversation, and by October 2009, Gaslight was born.
+![gaslight vision](http://gaslight.github.io/posts/assets/images/dewayne_quote.jpg)
 
-Some of us were working as freelancers, building software for clients out of our home office, managing deliverables to clients and having to work a sales pipeline to keep the bills paid. Some of us were working for other employers, and although we didn't have to kill to eat, we were forced into situations that we knew weren't the right way to do things, but with no power to say so. Both worlds being somewhat different had plenty of common threads. Each of us wanted to do the best work we knew how, unconstrained by somebody else's boundaries. We decided as a group of six, if we wanted to do better, we could do better together.
+In July of 2009, six people began talking about how they might start something in Cincinnati. A place where they could have better control over how software is built and shipped. I was fortunate to be one of the six in this conversation, and by October 2009, Gaslight was born.
+
+Some of us were working as freelancers, building software for clients out of our home office, managing deliverables to clients and having to work a sales pipeline to keep the bills paid. Some of us were working for other employers. Although we didn't have to kill to eat, we were forced into situations we knew weren't the right way to do things, and were powerless to say so. Both worlds, being somewhat different, had plenty of common threads. Each of us wanted to do the best work we knew how, unconstrained by somebody else's boundaries. We decided as a group of six, if we wanted to do better, we could do better together.
 
 ## Fast forward 4 years...
 
@@ -22,7 +24,7 @@ We talked a lot about what was important to us. Why we make decisions the way we
 
 Why did this make sense for us? Why the three pillars of learning, building, and sharing? What does community mean?  Glad you asked!
 
-**Inspiring Creators** - From the very beginning, we had decided to strike out on our own and build something because we simply weren't inspired. I'm not sure we all realized it at the time, but it's very clear today. Creative people require an environment where they can express themselves in their own way to create meaningful things. None of us had that, but when we said we wanted an environment where we created the boundaries to do the best work we knew how, I think we were saying, each of us were not in a place where we were inspired to do our best work. Gaslight exists to inspire creators. To provide an environment where creators can express and explore their creativity. To have a say in how things are done.  
+**Inspiring Creators** - From the very beginning, we had decided to strike out on our own and build something because we simply weren't inspired. I'm not sure we all realized it at the time, but it's very clear today. Creative people require an environment where they can express themselves in their own way to create meaningful things. When we said we wanted an environment where we created the boundaries to do the best work we knew how, I think we were saying, each of us were not in a place where we were inspired to do our best work. Gaslight exists to inspire creators. To provide an environment where creators can express and explore their creativity. To have a say in how things are done.
 
 **Learning** - We love to learn. Learning new things is the great undiscovered country of the mind. Our purpose is to make Gaslight a place where creators can be inspired to learn new things. New and better ways of doing things. The only way for us to build great things is to learn new ways of being better each day. Greatness is an elusive target. As soon as you think you've reached it, you're already being left behind. People who are inspired to learn will always do greater things.
 
@@ -30,25 +32,13 @@ Why did this make sense for us? Why the three pillars of learning, building, and
 
 **Sharing** - We love to share. Learning is what we do for ourselves. Building is what we do for our clients, but sharing is what we do to help make our community better. We've always been involved in hosting and organizing user groups. We speak at conferences, we even host one. We mentor startups from time to time. We train others in the technologies we're passionate about. We see sharing knowledge as central to our culture and to being a worthy member of our community.
 
-**Our Community** - Producing great things is the tangible result, but who is our community? We couldn't limit our core purpose to just our creative community. We couldn't limit our core purpose to our clients. We believe that anyone that is truly interested in learning, building, and sharing great things is part of our community. Whether it be a developer, a designer, a startup, or a multi-million dollar company. This is the community we're inspired to be a part of and to make a significant contribution.
+**Our Community** - Producing great things is the tangible result, but who is our community? We couldn't limit our core purpose to just our creative community. We couldn't limit our core purpose to our clients. We believe that anyone that is truly interested in learning, building, and sharing great things is part of our community. Whether it be a developer, a designer, a startup, or a multi-million dollar company. This is the community we're inspired to be a part of, and where we want to make a significant contribution.
 
 ## Conclusion
 
 We left that partner retreat happy with what we accomplished and eager to share it with our team members and our community at large. The sobering fact is we know this is just one step in a larger work of really casting a vision that will lead us to be what we aspire to be, a great company.
 
 The next step is to define the core values that we already live each day, then define our envisioned future. We have a company-wide retreat coming up in September, and I'm eager to hear from our whole team what they envision for Gaslight's future. This is uncharted territory for me personally, but I'm excited about the discovery.
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
