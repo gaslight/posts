@@ -8,10 +8,9 @@ from work and go lay down in my hammock in the back yard. After a full
 day of being around people, I just need some time when it's quiet and
 I don't have to talk to anyone.
 
-However, as I get older I'm becoming increasingly convinced that my
-friendships and my ability to make new friends plays a significant
-part in my overall happiness. Remembering people's names is a big part
-of making new friends.
+And yet, my friendships and my ability to make new friends plays a big
+part of my happiness. I've found remembering people's names is a big
+part of making new friends.
 
 I know what you're thinking, "But Doug, I'm just not good at
 remembering names." I know. I'm not either. In fact, I would guess
@@ -21,16 +20,16 @@ I'm not sure all the psychological factors at work here, but there are
 some fears that hold us back. I think we have a false expectation that
 we should be able to remember people's names. Everyone is better than
 we are at remembering names. When we see someone we know, we know we
-should remember their names, but don't. So we're embarassed and don't
+should remember their names, but don't. So we're embarrassed and don't
 say anything. We play these games trying to tease their name out of
 them. Sometimes we sneak around and quietly ask others if they
 remember their name.
 
-Here's my suggestion: ask them for their name. Own up to it. Don't be
-embarassed. Here's a simple line I use, "I'm sorry, I know I'm
-supposed to remember your name but I forgot. My name is Doug." Odds
-are they've forgotten your name too. Odds are they are playing games
-trying to remember or find our your name. I don't think I've had
+Here's my suggestion: ask them for their name. Own up to it and don't
+let it embarrassed you. Here's a simple line I use, "I'm sorry, I know
+I'm supposed to remember your name but I forgot. My name is Doug."
+Odds are they've forgotten your name too. Odds are they are playing
+games trying to remember or find our your name. I don't think I've had
 anyone react negatively to me asking their name.
 
 I don't think this is a license to simply give up trying to remember
@@ -41,12 +40,12 @@ Here's my number one trick for remembering people's names: write it
 down. The act of recording it will help imprint it on your brain.
 You're seeing it visually. You're mechanically engaging with it.
 
-I, personally, use [Evernote Hello](http://evernote.com/hello/) to
-keep up with names. I usually ask the new person I've met to fill out
-details. Evernote Hello uses your phone's camera to take their
-picture. Associating faces with names is a great tool. I think I've
-only had one person decline to take their own picture when asked.
-Evernote Hello also tracks the date/time when we met along with GPS
+I use [Evernote Hello](http://evernote.com/hello/) to keep up with
+names. I usually ask the new person I've met to fill out details.
+Evernote Hello uses your phone's camera to take their picture.
+Associating faces with names is a great tool. I think I've only had
+one person decline to take their own picture when asked. Evernote
+Hello also tracks the date/time when we met along with GPS
 coordinates. This lets me associate their face, name, and the time and
 place where we met. All this syncs back into Evernote.
 
