@@ -8,7 +8,7 @@ I'll speak to why, but knowing what we know about the landscape of JavaScript de
 
 ## About the Author
 
-It made Chris Moore visibly, physically ill when I said I came to Jay-Z through Kanye West. I'm a little trepidatious to admit, I came into real JavaScript development through CoffeeScript. 
+It made Chris Moore visibly and physically ill when I said I came to Jay-Z through Kanye West. I'm a little trepidatious to admit, I came into real JavaScript development through CoffeeScript. 
 
 My trepidation speaks to the palpable schism between writers of JavaScript and writers of CoffeeScript. I'm a CoffeeScript proponent, but I hope I can do this subject a little objective justice after reading some of the reverse takes on it:
 
