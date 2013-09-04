@@ -1,3 +1,5 @@
+<div style="width: 100%; text-align:center"><img src="http://gaslight.github.io/posts/assets/images/coffeescript.jpg"/></div>
+
 ## Does Coffeescript have a Future?
 
 Coffeescript has made the landscape of JavaScript development so much more interesting. There is no doubt that Coffeescript has emerged.  Rails and any other framework worth it's salt ships with support for it. Github's internal style guide [promotes it](https://github.com/styleguide/javascript). We write it religiously at Gaslight.
