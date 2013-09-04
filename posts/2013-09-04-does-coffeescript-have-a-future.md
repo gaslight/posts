@@ -1,6 +1,6 @@
 ## Does CoffeeScript have a Future?
 
-CoffeeScript has made the landscape of JavaScript development so much more interesting. There is no doubt that CoffeeScript has emerged.  Rails and any other framework worth it's salt ships with support for it. Github's internal style guide [promotes it](https://github.com/styleguide/javascript). We write it religiously at Gaslight.
+CoffeeScript has made the landscape of JavaScript development so much more interesting. There is no doubt that CoffeeScript has emerged.  Rails and any other framework worth its salt ships with support for it. Github's internal style guide [promotes it](https://github.com/styleguide/javascript). We write it religiously at Gaslight.
 
 But Kevin Rockwood recently came back from an Ember.js event in Chicago, saying some really interesting things about JavaScript. He pointed me to this [discourse thread](http://meta.discourse.org/t/is-it-better-for-discourse-to-use-javascript-or-coffeescript/3153/9), in which something significant happens. The core team of Discourse, a substantial open source project, make an official decision to stop writing CoffeeScript in lieu of JavaScript.
 
