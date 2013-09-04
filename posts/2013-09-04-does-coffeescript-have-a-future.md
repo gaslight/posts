@@ -68,4 +68,4 @@ Regardless of the severity of the incompatibility, CoffeeScript is forever going
 
 CoffeeScript has been a huge win. It's made JavaScript development magnitudes more enjoyable and accessible, it's gained support in all the major arenas, it's informed and transformed the JavaScript language itself, and it has proven itself to be an invaluable tool to thousands of developers. 
 
-I don't know what the future of CoffeeScript is. I do know that even if CoffeeScript died tomorrow, it will have done it's job and fulfilled it's destiny, and that makes me happy.
+I don't know what the future of CoffeeScript is. I do know that even if CoffeeScript died tomorrow, it will have done its job and fulfilled its destiny, and that makes me happy.
