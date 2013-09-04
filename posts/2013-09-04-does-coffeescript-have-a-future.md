@@ -4,7 +4,7 @@ CoffeeScript has made the landscape of JavaScript development so much more inter
 
 But Kevin Rockwood recently came back from an Ember.js event in Chicago, saying some really interesting things about JavaScript. He pointed me to this [discourse thread](http://meta.discourse.org/t/is-it-better-for-discourse-to-use-javascript-or-coffeescript/3153/9), in which something significant happens. The core team of Discourse, a substantial open source project, make an official decision to stop writing CoffeeScript in lieu of JavaScript.
 
-I'll speak to why, but knowing what we know about the landscape of JavaScript development and how it is evolving, I have to wonder, is this a signpost? Does CoffeeScript have a future?
+Knowing what we know about the landscape of JavaScript development and how it is evolving, I have to wonder if is this a signpost. Does CoffeeScript have a future?
 
 ## About the Author
 
