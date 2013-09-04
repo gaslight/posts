@@ -62,7 +62,7 @@ The changes to JavaScript are not only going to improve the language, but are al
 
 In the thread Yahuda Katz states that the differences in ES6 are large enough that they could warrant a completely new redesign of CoffeeScript. It's not a patch or upgrade level solution. All of a sudden writing CoffeeScript could become a very real liability.
 
-Regardless of the severity of the incompatibility, CoffeeScript is forever going to need constant love and support to keep pace with ongoing changes in JavaScript. Given that the JavaScript language is assimilating all of the features that CoffeeScript provides, how many people are going to be willing to continue that work?
+Regardless of the severity of the incompatibility, CoffeeScript is forever going to need constant love and support to keep pace with ongoing changes in JavaScript. Given that the JavaScript language is assimilating most of the features that CoffeeScript provides, how many people are going to be willing to continue that work?
 
 ## We <3 CoffeeScript
 
