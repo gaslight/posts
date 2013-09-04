@@ -22,7 +22,7 @@ There are similarly a thousand inconsequential, stylistic arguments that can be 
 
 ## JavaScript is the Lingua Franca
 
-Discourse's main reason for the switch was to encourage more contributions to it's substantial open-source product. Some questioned whether this was valid. Does CoffeeScript really discourage some people from contributing? I can say from experience, yes.
+Discourse's main reason for the switch was to encourage more contributions to its substantial open-source product. Some questioned whether this was valid. Does CoffeeScript really discourage some people from contributing? I can say from experience, yes.
 
 We have taken heat multiple times for posting code samples on this blog in CoffeeScript. The response was similar each time we did it. A JavaScript developer would invariably comment: "I'm not even going to read this because I don't know CoffeeScript".
 
