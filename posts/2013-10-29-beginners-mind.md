@@ -25,9 +25,9 @@ process better.
 In Zen Buddhism, there's a concept called "beginner's mind", or
 [Shoshin]. Wikipedia defines it as:
 
-> It refers to having an attitude of openness, eagerness, and lack of
-> preconceptions when studying a subject, even when studying at an
-> advanced level, just as a beginner in that subject would.
+> ... an attitude of openness, eagerness, and lack of preconceptions
+> when studying a subject, even when studying at an advanced level, just
+> as a beginner in that subject would.
 
 When you focus on a particular industry or niche, you lose that trait. You lose
 the ability to have a clear head. You're carrying the baggage of existing
