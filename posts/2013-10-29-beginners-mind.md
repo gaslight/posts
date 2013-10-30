@@ -17,7 +17,7 @@ working on that project.
 
 We're problem solvers. I can't remember who said it, but the code is a side
 effect. We're good at listening to someone who might not be technical explain
-a problem, mash it up in our brains and deliver something to make that
+a problem, mash it up in our brains and deliver something that makes that
 process better.
 
 ## Enter Beginner's Mind
