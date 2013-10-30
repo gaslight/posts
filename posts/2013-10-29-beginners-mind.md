@@ -1,7 +1,7 @@
 # Beginner's Mind
 
 As a custom software development shop, we're always interested in marketing.
-Talking about the work we've done and enjoy doing is the best way to reach new
+Enjoying the work we do, and talking about it is the best way to reach new
 customers.
 
 One of the suggestions we often hear is that we should specialize; focus on a
@@ -9,8 +9,8 @@ specific industry. My answer is we have. Our industry is solving
 problems.
 
 On a recent trip with [SuperChris], he asked "Do you sometimes feel like
-we know our clients' businessess better than they do?" I told him that I
-absolutely felt that way. In fact, if I didn't, I should probably stop
+we know our clients' businessess better than they do?" I
+absolutely felt that way. In fact, if I didn't, I'm should probably stop
 working on that project.
 
 ## Solving Problems
@@ -29,14 +29,15 @@ In Zen Buddhism, there's a concept called "beginner's mind", or
 > when studying a subject, even when studying at an advanced level, just
 > as a beginner in that subject would.
 
-When you focus on a particular industry or niche, you lose that trait. You lose
+When you focus on a particular industry or niche, you lose the beginer's mind. You lose
 the ability to have a clear head. You're carrying the baggage of existing
-limitations, workflows, processes or vendors. That's not always great.
+limitations, workflows, processes or vendors. "In the beginner's mind there are many possibilities, 
+in the expert's mind there are few."
 
 Opportunities for innovation exist in a million industries in a billion
 facilities around the world. What's holding you back? Try to think like
-a beginner and less like an expert. Listen to your spouse when you
-explain a process. Talk to the new hire and listen when they ask "Why?"
+a beginner and less like an expert. Listen to beginners. Explain a process to 
+your spouse or to a new hire, and listen when they ask "Why?"
 
 You just might learn something.
 
