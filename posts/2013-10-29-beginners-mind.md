@@ -9,8 +9,7 @@ specific industry. My answer is we have. Our industry is solving
 problems.
 
 On a recent trip with [SuperChris], he asked "Do you sometimes feel like
-we know our clients' businessess better than they do?" I
-absolutely feel that way. In fact, if I didn't, I should probably stop
+we know our clients' businesses better than they do?" Of course I feel that way. In fact, if I didn't, I should stop
 working on that project.
 
 ## Solving Problems
@@ -29,7 +28,7 @@ In Zen Buddhism, there's a concept called "beginner's mind", or
 > when studying a subject, even when studying at an advanced level, just
 > as a beginner in that subject would.
 
-When you focus on a particular industry or niche, you lose the beginer's mind. You lose
+When you focus on a particular industry or niche, you lose the beginner's mind. You lose
 the ability to have a clear head. You're carrying the baggage of existing
 limitations, workflows, processes or vendors. "In the beginner's mind there are many possibilities, 
 in the expert's mind there are few."
@@ -43,4 +42,3 @@ You just might learn something.
 
 [SuperChris]: https://twitter.com/superchris
 [Shoshin]: http://en.wikipedia.org/wiki/Shoshin
-
