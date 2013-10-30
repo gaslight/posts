@@ -10,7 +10,7 @@ problems.
 
 On a recent trip with [SuperChris], he asked "Do you sometimes feel like
 we know our clients' businessess better than they do?" I
-absolutely felt that way. In fact, if I didn't, I'm should probably stop
+absolutely feel that way. In fact, if I didn't, I should probably stop
 working on that project.
 
 ## Solving Problems
