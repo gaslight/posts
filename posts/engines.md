@@ -1,12 +1,16 @@
-We recently realized that this site (the one you're reading at right now) was starting to get a little too large to remain sustainable. We started noticing that large parts of the app provided completely separate fuctionality and didn't really need to communicate with each other. Maintaining these separate parts as a single monolithic application was starting to become painful.
-
-Here's the basic structure:
+We recently realized that this site (the one you're reading at right now) was starting to get a little too large to remain sustainable. We started noticing that large parts of the app provided completely separate fuctionality and didn't really need to communicate with each other. Maintaining these separate parts as a single monolithic application was starting to become painful. We decided to break the app using Rails Engines using this structure:
 
 * Gaslight.co (static pages, newsletter signups, contact forms)
  * BlogApp engine (posts, tags, comments)
  * TrainingApp engine (courses, chapters, instructors, registrations)
 
-Is an engine right for me?
+## Engines 101
+
+A Rails Engine is a Rails app that is designed to be mountable into another Rails app. This is acheived largely through namespacing. Controllers and models in a Rails Engine are defined within modules of the engine's namespace. Simlarly, assets specific to the engine are accessed in directories having the engine's name.
+
+Rails provides a generator for creating engines just like it does for creating a standard Rails app. Rather than `rails new myapp`, run `rails plugin new myapp`. This will create an application skeleton similar to a standard Rails app that implements the namespacing described above.
+
+## Is an engine right for me?
 
 Engines aren't the answer for everything, and building a rails app with engines will increase development time. The benefits are that you can maintain pieces separately. Each engine can be run in isolation having it's own layout, assets, and test suite. Furthermore, architecting an app with engines forces you to really think through your dependencies and makes you isolate things from the get go.
 
