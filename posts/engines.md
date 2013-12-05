@@ -24,9 +24,11 @@ The difficulties:
 
 The awesomeness:
 
-1. **Separate Tests** 
+1. **Separate Tests**. As apps grow, test suites can become unwieldy and take longer to run. With engines, test suites are broken apart and run faster. Because engines are isolated, you can be assured that changes to an engine shouldn't affect another engine.
 
-1. **Quick development**
+1. **Quick development**. It's easier for developers understand a single engine rather than needing to understand the entire app. Rampup time is shorter.
+
+2. **Isolation**.
 
 
 In the end, you'll have a much more maintainable and scalable systems.
