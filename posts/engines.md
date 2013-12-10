@@ -30,3 +30,7 @@ The awesomeness:
 1. **Separate Tests**. As apps grow, test suites can become unwieldy and take longer to run. With engines, test suites are broken apart and run faster. Because engines are isolated, you can be assured that changes to an engine wont affect other parts of your app.
 
 1. **Quick development**. It's easier for developers understand a single engine rather than needing to understand the entire app. Rampup time is shorter.
+
+## Conclusion
+
+If you feel the pain of dealing with a bloated architecture, chances are you'll have places where engines make sense. If you're comfortable with Rails, Engines are just a short mental leap. It may be somewhat painful to break out your first engine, but understanding engines means you'll arrive at a better architecture in your next application.
