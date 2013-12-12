@@ -1,8 +1,7 @@
-What the US Government Learned About Software From the Healthcare.gov Failure ( And What We All Can )
+# What the US Government Learned About Software From the Healthcare.gov Failure ( And What We All Can )
+## Part One: The Bad
 
-On October 1st, 2013 blah blah date the us government (department of HHS) released the blah blah website. The release was a huge failure. It was a huge failure because of a b and c. 
-
-"Lawmakers are trying to determine why the online portal for uninsured Americans in 36 states has malfunctioned since its Oct. 1 start, the beginning of a six-month enrollment period that is expected to draw at least 7 million people to sign up for federally subsidized private insurance for 2014."
+On October 1st, 2013 the U.S. Department of Health and Human Services released the Healthcare.gov website. The portal was intended to draw and enroll an estimated 7 million users over a six-month period. The release was a huge failure. Problems with the site were so bad that by December, two months after the release, a reported 29,000 users had succeeded. Users reported a myriad of failures in accessing the site, authentication, bad calculations, bad and missing data, and their accounts getting into impossible, inescapable states during the enrollment process.
 
 What happened with Healthcare.gov can and does happen all over the world everyday, but it doesn't have to. Software projects don't fail from high traffic or technical constraints. Software projects are fragile and fail due to poor management and poor engineering. Since the fiasco, the blog of the Department of Health and Human Services has belied a snowballing improvement by shifting towards Agile development and management practices. This is a combination of articles about how poor project management practices killed the Healthcare.gov project, and how smart practices have begun to turn it around.
 
@@ -66,5 +65,4 @@ Software development is a unique endeavor. Success requires a unique and evolvin
 
 ## Conclusion
 
-In this article I've outlined some of the apparent problems from that led to the Healcare.gov fiasco. In my next article I'd like to talk about the smart things that the government did, and has done since to turn the ship around.
-
+I've outlined some of the apparent problems from a modern software development standpoint, that led to the Healcare.gov fiasco. In my next article I'll talk about the smart things that the government did, and has done since to turn the ship around. Stay tuned.
