@@ -1,13 +1,14 @@
-We started using Trello on one of our projects
-because we wanted better visualization of our process and more flexibility than
-Pivotal Tracker could provide. We could no longer get by with the standard
-Pivotal Tracker's columns: 
+We started using Trello on one of our projects because we wanted better
+visualization of our process and more flexibility than Pivotal Tracker could
+provide. We could no longer get by with Pivotal Tracker's standard columns.
 
 * Icebox
 * Backlog
 * Done
 
-The standard card states were also getting in our way:
+The standard card states no longer fit with our process as we did more work to
+integrate design and development. We could create two cards for a single story,
+but this caused confusion.
 
 * Started
 * Finished
@@ -34,7 +35,7 @@ following columns and WIP (work in progress) limits in brackets:
 
 ## Labels 
 
-We're using different colored labels to represent different things:
+Trello also provides labels and we're using different colors to represent different states:
 
 * Green: Ready to Pull
 * Blue: Expedite (should only be one story at a time with this color) 
@@ -45,7 +46,7 @@ We're using different colored labels to represent different things:
 Trello is flexible and simple. Take whatever process you're currently using and
 translate it to a Trello board. As you realize that you're no longer bound by
 the prescribed method of <project management tool> you may find a better way to
-represent your project flow.
+represent how your features move from idea to completion.
 
 Besides managing our client projects we use Trello for all different
 types of things:
@@ -57,9 +58,4 @@ types of things:
 * Blogging
 
 Our main point of contact at the client has enjoyed the workflow and simplicity
-of Trello, he is now using it for his internal projects as well.
-
-At the time we moved over to Trello we were also struggling with integrating
-design and development. We could create two cards for a single story, but this
-caused confusion. 
-
+of Trello and he is now using it for his internal projects as well.
