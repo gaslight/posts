@@ -1,14 +1,10 @@
 We started using Trello on one of our projects because we wanted better
 visualization of our process and more flexibility than Pivotal Tracker could
-provide. We could no longer get by with Pivotal Tracker's standard columns.
+provide. Pivotal Tracker provides three standard columns and five standard card states:
 
 * Icebox
 * Backlog
 * Done
-
-The standard card states no longer fit with our process as we did more work to
-integrate design and development. We could create two cards for a single story,
-but this caused confusion.
 
 * Started
 * Finished
@@ -16,8 +12,12 @@ but this caused confusion.
 * Accepted
 * Rejected
 
+This workflow [no longer fit with our process](http://gaslight.co/blog/why-not-pivotal-tracker) as we did more work to
+integrate design and development. We considered creating multiple cards for each story,
+but this caused confusion.
+
 Pivotal Tracker also lacked the concept of WIP limits. Trello doesn't support
-WIP limits, however, much easier to see when there is a WIP violation. There is
+WIP limits, however, in Trello it's much easier to see when there is a WIP violation. There is
 a also a [Chrome extension](https://chrome.google.com/webstore/detail/kanban-wip-for-trello/oekefjibcnongmmmmkdiofgeppfkmdii?hl=en-US)
 that can help visualize WIP.
 
