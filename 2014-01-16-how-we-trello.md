@@ -21,7 +21,7 @@ WIP limits, however, in Trello it's much easier to see when there is a WIP viola
 a also a [Chrome extension](https://chrome.google.com/webstore/detail/kanban-wip-for-trello/oekefjibcnongmmmmkdiofgeppfkmdii?hl=en-US)
 that can help visualize WIP.
 
-We're trying to model our current process with a Kanban workflow, using the
+We're trying to model our current process with Kanban, using the
 following columns and WIP (work in progress) limits in brackets: 
 
 ![wip](http://gaslight.github.io/posts/assets/images/how-we-trello_wip.png)
