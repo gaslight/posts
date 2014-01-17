@@ -63,5 +63,5 @@ types of things:
 * Book Club
 * Blogging
 
-Our main point of contact at the client has enjoyed the workflow and simplicity
+Our current client has enjoyed the workflow and simplicity
 of Trello and he is now using it for his internal projects as well.
