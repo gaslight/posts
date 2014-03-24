@@ -31,7 +31,7 @@ We've been using [Bootstrap] recently and this is required if you want to custom
 
 ## components
 
-This is the most important part. Any component (block) should have it's own file. This makes finding where styles are defined very easy.
+This folder is possibly the most important part. Any component (block) should have its own file in this directory. This makes finding where styles are defined very easy.
 
 Component files are also responsible for media queries that may effect their presentation.
 
