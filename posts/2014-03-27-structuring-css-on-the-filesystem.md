@@ -21,6 +21,7 @@ sense.
     - search.css
 - elements.css
 - fonts.css
+- reset.css
 - utilities.css
 - variables.css
 
@@ -47,6 +48,11 @@ presentation.
 
 Despite using BEM we still have styles that will apply to all elements and this
 is the place for them.
+
+These styles represent the baseline or starting point of your application.
+They're a level above the reset and the rules should not override other rules
+or contain nesting for elements that are not inherently nested (ul > li, 
+thead > tr, etc).
 
 ```sass
 h1
