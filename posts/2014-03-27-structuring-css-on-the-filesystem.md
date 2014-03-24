@@ -60,7 +60,9 @@ Want to know what fonts are available in your project? This is where you look.
 
 ## helpers.css
 
-These styles are typically unspecific to the application you're building.
+These styles are not specific to your application domain and they have a very limited ruleset.
+
+Below are a few examples of good helper classes.
 
 ```sass
 .text-left
@@ -70,7 +72,16 @@ These styles are typically unspecific to the application you're building.
   margin: 0 !important
 ```
 
-[https://github.com/csswizardry/inuit.css/blob/master/generic/_helper.scss](https://github.com/csswizardry/inuit.css/blob/master/generic/_helper.scss)
+Below is an example of something that should not be a helper class.
+
+```sass
+.featured
+  color: green
+  font-weight: bold
+  font-size: 200%
+```
+
+We tend to use a lot of the helper classes from [inuit.css.](https://github.com/csswizardry/inuit.css/blob/master/generic/_helper.scss)
 
 ## variables.css
 
