@@ -21,10 +21,6 @@ sense.
     - search.css
 - elements.css
 - fonts.css
-- pdf.css
-- pdf
-    - header.css
-    - post.css
 - utilities.css
 - variables.css
 
@@ -115,10 +111,6 @@ $line-height: 1.5rem
 
 application.css should only be a manifest and should not include any styles of
 its own. You should only include manifest files in your views.
-
-Often you will find that there are subsections of a site and those should have
-their own manifest that can be included. The pdf folder above is an example of
-this.
 
 [gaslight-bem]: http://gaslight.co/blog/block-element-modifier "Block Element Modifier"
 [the silver searcher]: https://github.com/ggreer/the_silver_searcher "The Silver Searcher"
