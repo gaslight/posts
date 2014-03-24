@@ -70,7 +70,7 @@ These styles are typically unspecific to the application you're building.
   margin: 0 !important
 ```
 
-[https://github.com/csswizardry/inuit.css/blob/master/generic/_helper.scss]()
+[https://github.com/csswizardry/inuit.css/blob/master/generic/_helper.scss](https://github.com/csswizardry/inuit.css/blob/master/generic/_helper.scss)
 
 ## variables.css
 
