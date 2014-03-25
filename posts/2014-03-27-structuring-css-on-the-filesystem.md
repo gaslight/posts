@@ -84,7 +84,7 @@ limited ruleset.
 Below are a few examples of good helper classes.
 
 ```sass
-.text-left
+.text--left
   text-align: left !important
   
 .flush
