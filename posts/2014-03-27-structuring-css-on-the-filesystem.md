@@ -60,6 +60,9 @@ h1
   
 hr
   padding: 2px 0
+
+tfoot > tr
+  font-weight: bold
 ```
 
 ## fonts.css
