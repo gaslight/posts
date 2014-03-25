@@ -13,25 +13,25 @@ sense.
 
 ## Folder Structure
 
-- application.css
-- bootstrap_overrides.css
+- application.sass
+- bootstrap_overrides.sass
 - components
-    - header.css
-    - post.css
-    - search.css
-- elements.css
-- fonts.css
-- reset.css
-- utilities.css
-- variables.css
+    - header.sass
+    - post.sass
+    - search.sass
+- elements.sass
+- fonts.sass
+- reset.sass
+- utilities.sass
+- variables.sass
 
-## application.css
+## application.sass
 
 In a Rails application this is your manifest file and it is typically included
 in your application layout. No styles should exist in this file, it should just
 be @import statements.
 
-## bootstrap_overrides.css
+## bootstrap_overrides.sass
 
 We've been using [Bootstrap] recently and this is required if you want to customize.
 
@@ -44,7 +44,7 @@ defined very easy.
 Component files are also responsible for media queries that may effect their
 presentation.
 
-## elements.css
+## elements.sass
 
 Despite using BEM we still have styles that will apply to all elements and this
 is the place for them.
@@ -65,7 +65,7 @@ tfoot > tr
   font-weight: bold
 ```
 
-## fonts.css
+## fonts.sass
 
 Want to know what fonts are available in your project? This is where you look.
 
@@ -76,7 +76,7 @@ Want to know what fonts are available in your project? This is where you look.
   font-weight: normal
 ```
 
-## helpers.css
+## helpers.sass
 
 These styles are not specific to your application domain and they have a very
 limited ruleset.
@@ -103,7 +103,7 @@ Below is an example of something that should not be a helper class.
 We tend to use a lot of the helper classes from
 [inuit.css.](https://github.com/csswizardry/inuit.css/blob/master/generic/_helper.scss)
 
-## variables.css
+## variables.sass
 
 This is where any of your global variables should be defined. Want to define
 specific colors to reference in other stylesheets, do it here.
