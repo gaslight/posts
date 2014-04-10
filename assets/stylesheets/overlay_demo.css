@@ -518,14 +518,22 @@ ul{
 
 .demo-5 .thumbnail__overlay{
   position: absolute;
-  -webkit-transform: translateY(0%);
-  -moz-transform: translateY(0%);
-  -ms-transform: translateY(0%);
-  -o-transform: translateY(0%);
-  transform: translateY(0%);
-  z-index: 1;
+  padding-left: 80px;
+  background-color: rgb(87,192,232);
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
   opacity: 1;
-  z-index: 1;
+}
+
+.demo-5 .thumbnail:hover .thumbnail__overlay{
+  -webkit-transform: translateX(-15%);
+  -moz-transform: translateX(-15%);
+  -ms-transform: translateX(-15%);
+  -o-transform: translateX(-15%);
+  transform: translateX(-15%);
 }
 
 .demo-5 .thumbnail__image {
@@ -535,20 +543,42 @@ ul{
   -ms-transition: -ms-transform 0.5s;
   -o-transition: -o-transform 0.5s;
   transition: transform 0.5s; 
-  -webkit-transform-origin: bottom right;
-  -moz-transform-origin: bottom right;
-  -ms-transform-origin: bottom right;
-  -o-transform-origin: bottom right;
-  transform-origin: bottom right;
-  z-index: 1000;
 }
 
 .demo-5 .thumbnail:hover .thumbnail__image {
-  -webkit-transform: scale(0.3);
-  -moz-transform: scale(0.3);
-  -ms-transform: scale(0.3);
-  -o-transform: scale(0.3);
-  transform: scale(0.3);
+  -webkit-transform: translateX(70%);
+  -moz-transform: translateX(70%);
+  -ms-transform: translateX(70%);
+  -o-transform: translateX(70%);
+  transform: translateX(70%);
+}
+
+.demo-5 .thumbnail:hover .thumbnail__overlay .title, .demo-5 .thumbnail:hover .thumbnail__overlay .caption, .demo-5 .thumbnail:hover .thumbnail__overlay .button{
+  -webkit-transform: translateX(0%);
+  -moz-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  -o-transform: translateX(0%);
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.demo-5 .thumbnail__overlay .title, .demo-5 .thumbnail__overlay .caption, .demo-5 .thumbnail__overlay .button{
+  -webkit-transform: translateX(-20px);
+  -moz-transform: translateX(-20px);
+  -ms-transform: translateX(-20px);
+  -o-transform: translateX(-20px);
+  transform: translateX(-20px);
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+  -moz-transition: -moz-tansform 0.5s, opacity 0.5s;
+  -ms-transition: -ms-transform 0.5s, opacity 0.5s;
+  -o-transition: -o-transform 0.5s, opacity 0.5s;
+  transition: tranform 0.5s, opacity 0.5s;
+  -webkit-transition-delay: 0.3s;
+  -mox-transition-delay: 0.3s;
+  -ms-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  transition-delay: 0.3s;
 }
 
 
