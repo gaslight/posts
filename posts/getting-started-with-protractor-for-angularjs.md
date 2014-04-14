@@ -57,7 +57,6 @@ With that, we tell protractor where to find our selenium server, which browser(s
 For a simple example of using Protractor to test drive an application, we are going to use logging into a web application. In `spec/e2e/login_spec.js` we setup our test using jasmine-given and page objects.
 
     require("protractor/jasminewd");
-    
     require('jasmine-given');
     
     var LoginPage = require("./pages/login_page");
@@ -80,11 +79,50 @@ For a simple example of using Protractor to test drive an application, we are go
           });
           Then(function() {
             page.getCurrentUser().then(function(text) {
-    		  expect(text).toEqual("Testy McTesterson");
+    		  expect(text).toEqual("Randy Savage");
             });
           });
         });
       });
     });
 
+First we require our protractor jasmine web driver, and also jasmine-given. Next we require our not yet existing login page object. Last, we walk through the steps of navigating to the login page, filling in and submitting the form. Last, we assert that our page knows about our `currentUser` and that it's text is equal to Randy Savage.
 
+If we run this, we should get an error that node cannot find the module `pages/login_page`, so let's go ahead and add that.
+
+	var LoginPage = (function() {
+		function LoginPage() {
+			this.emailField = element(By.model("user.email"));
+			this.passwordField = element(By.model("user.password"));
+			this.loginButton = element(By.id("log-in"));
+			this.currentUser = element(By.binding("{{currentUser.name}}"));
+		}
+
+	    LoginPage.prototype.visitPage = function() {
+			browser.get("/");
+		};
+
+	    LoginPage.prototype.fillEmail = function(email) {
+			this.emailField.sendKeys(email);
+		};
+
+	    LoginPage.prototype.fillPassword = function(password) {
+			if (password == null) {
+				password = "password";
+			}
+			this.passwordField.sendKeys(password);
+		};
+
+	    LoginPage.prototype.login = function() {
+			this.loginButton.click();
+		};
+
+	    LoginPage.prototype.getCurrentUser = function() {
+			return this.currentUser.getText();
+		};
+
+	    return LoginPage;
+
+	})();
+
+	module.exports = LoginPage;
