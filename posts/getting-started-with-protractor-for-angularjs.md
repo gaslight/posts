@@ -1,3 +1,5 @@
+# Getting started with Protractor and page objects for AngularJS e2e testing
+
 When it was announced that Protractor would be replacing the karma runner as *THE* end to end test framework for AngularJS, I'll admit, I was a bit sad. While I didn't have a deep love for the karma runner, it was crazy simple to setup and run, and my initial perusal of the Protractor docs was intimidating. After spending some time with Protractor though, I have come to enjoy using it in the same manner in which I would test a Rails application.
 
 Going through the Protractor docs and getting started can still be a daunting task. My goal is to alleviate some of that by sharing my configuration and setup, as well as using the page object pattern for creating an API through which we'll interact with our web pages. We'll also be using the jasmine-given library to help clean up our specs.
@@ -88,12 +90,18 @@ For a simple example of using Protractor to test drive an application, we are go
 
 First we require our protractor jasmine web driver, and also jasmine-given. Next we require our not yet existing login page object. Last, we walk through the steps of navigating to the login page, filling in and submitting the form. Last, we assert that our page knows about our `currentUser` and that it's text is equal to Randy Savage.
 
-If we run this, we should get an error that node cannot find the module `pages/login_page`, so let's go ahead and add that.
+We can run this spec with the following command:
+
+```
+$ node_modules/protractor/bin/protractor path/to/spec-e2e.conf.js
+```
+
+The output from this run should throw an error that node cannot find the module `pages/login_page`, so let's go ahead and add that.
 
 	var LoginPage = (function() {
 		function LoginPage() {
-			this.emailField = element(By.model("user.email"));
-			this.passwordField = element(By.model("user.password"));
+			this.emailField = element(By.input("user.email"));
+			this.passwordField = element(By.input("user.password"));
 			this.loginButton = element(By.id("log-in"));
 			this.currentUser = element(By.binding("{{currentUser.name}}"));
 		}
@@ -126,3 +134,7 @@ If we run this, we should get an error that node cannot find the module `pages/l
 	})();
 
 	module.exports = LoginPage;
+
+In the constructor function of our `LoginPage` class, we setup instances of the things on the page we wish to interact with using Protractor's locators. We use `By.input` to find an input with a binding to `ng-model="user.email"` and again for `ng-model="user.password"`. We find our submit button by id, and lastly we find the current users name by searching the page for the `currentUser.name` binding. We then setup the functions on our page object that we are calling from our spec, using the elements we setup in our constructor. It is important to note the implicit return of `this.currentUser.getText()`. This is because the `getText()` method returns a promise, which we return to and resolve in our spec. Finally we ensure that our page object is available to the spec by exporting it.
+
+Now, when we run our spec again, we should get an actionable failure `Error: No element found using locator: by.model("user.email")` allowing us to implement our markup and logic to get our spec passing. With just a few simple steps, we were able to get a selenium server running and Protractor configured to use it. As well as creating a pleasant testing DSL by abstracting our page specific login into a reuseable page object.
