@@ -4,7 +4,7 @@ The "posts" branch contains all of our blog content in Markdown format. Why? Bec
 we're not exactly sure where it's all going to live and it's nice to keep
 everything in one place no matter where it gets published.
 
-Avoid the master branch in this repository!! The reason is the Google will penalize
+Avoid the "master" branch in this repository!! The reason is the Google will penalize
 our blog site for duplicate content it finds here.
 
 We can also use a familiar workflow to write, edit and submit content -- Pull
