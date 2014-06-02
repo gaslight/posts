@@ -11,7 +11,13 @@ high quality software. Teams are not required to pair all the time, but it can
 be effective in certain situations. Below are some guidelines that have emerged
 from our experience with pair programming.
 
-## Avoiding Poor Ergonomics
+## Shared Workstation / Physical Environment
+
+If you opt to share a physical workspace while pair programming there are extra
+considerations to take into account. Dedicated pairing stations that are not
+owned by a single developer can help reduce some of these problems.
+
+### Avoiding Poor Ergonomics
 
 When pairing, it is not always important to be sitting at the same desk. Many
 of us have found that sharing a single desk with another person leads to poor
@@ -24,15 +30,6 @@ any time you're at a workstation. Using [ScreenHero](http://screenhero.com/) or
 the [native Mac OS screen sharing](http://support.apple.com/kb/PH14148) while
 sitting diagonal from one another has worked well for us. Sitting diagonal from
 one another also allows you to see one another without twisting sideways.
-
-The physical environment is not the only important factor when pairing, the
-virtual environment is also important.
-
-## Shared Workstation / Physical Environment
-
-If you opt to share a physical workspace while pair programming there are extra
-considerations to take into account. Dedicated pairing stations that are not
-owned by a single developer can help reduce some of these problems.
 
 ### Personal Hygiene
 
@@ -51,8 +48,9 @@ not always practical.
 
 ## Virtual Environment
 
-Besides the physical environment, the virtual environment is important too.
-Most of these tips will help your productivity when working by yourself.
+The physical environment is not the only important factor when pairing, the
+virtual environment is also important. These tips are also tips for general
+productivity and can be applicable when working without a pair.
 
 ### No extra windows
 
@@ -119,5 +117,4 @@ to understand the tools you're working with.
 
 Often times there are tasks which are rather mundane that are not challenging.
 Know when you should pair up and when it may be better to work on your own.
-
 Remember that when you're pairing you're using two people's time.
