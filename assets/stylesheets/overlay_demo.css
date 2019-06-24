@@ -265,10 +265,10 @@ ul{
   transform: translateY(20px);
   opacity: 0;
   -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-  -moz-transition: -moz-tansform 0.5s, opacity 0.5s;
+  -moz-transition: -moz-transform 0.5s, opacity 0.5s;
   -ms-transition: -ms-transform 0.5s, opacity 0.5s;
   -o-transition: -o-transform 0.5s, opacity 0.5s;
-  transition: tranform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
   -webkit-transition-delay: 0.3s;
   -mox-transition-delay: 0.3s;
   -ms-transition-delay: 0.3s;
@@ -278,7 +278,7 @@ ul{
 
 .demo-1 .thumbnail__image {
   -webkit-transition: -webkit-transform 0.5s;
-  -moz-transition: -moz-tansform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
   -ms-transition: -ms-transform 0.5s;
   -o-transition: -o-transform 0.5s;
   transition: transform 0.5s; 
@@ -324,10 +324,10 @@ ul{
 
 .demo-2 .thumbnail__image img {
   -webkit-transition: -webkit-transform 0.5s;
-  -moz-transition: -moz-tansform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
   -ms-transition: -ms-transform 0.5s;
   -o-transition: -o-transform 0.5s;
-  transition: tranform 0.5s; 
+  transition: transform 0.5s; 
 }
 
 .demo-2 .thumbnail:hover .thumbnail__image{
@@ -379,10 +379,10 @@ ul{
 .demo-3 .thumbnail__image {
   position: absolute;
   -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-  -moz-transition: -moz-tansform 0.5s, opacity 0.5s;
+  -moz-transition: -moz-transform 0.5s, opacity 0.5s;
   -ms-transition: -ms-transform 0.5s, opacity 0.5s;
   -o-transition: -o-transform 0.5s, opacity 0.5s;
-  transition: tranform 0.5s, opacity 0.5s; 
+  transition: transform 0.5s, opacity 0.5s; 
   -webkit-transform-origin: left;
   -moz-transform-origin: right center;
   -ms-transform-origin: right center;
@@ -409,10 +409,10 @@ ul{
   transform: translateX(-25px);
   opacity: 0;
   -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-  -moz-transition: -moz-tansform 0.5s, opacity 0.5s;
+  -moz-transition: -moz-transform 0.5s, opacity 0.5s;
   -ms-transition: -ms-transform 0.5s, opacity 0.5s;
   -o-transition: -o-transform 0.5s, opacity 0.5s;
-  transition: tranform 0.5s, opacity 0.5s; 
+  transition: transform 0.5s, opacity 0.5s; 
 }
 
 .demo-3 .thumbnail:hover .thumbnail__overlay .title, .demo-3 .thumbnail:hover .thumbnail__overlay .caption, .demo-3 .thumbnail:hover .thumbnail__overlay .button{
@@ -443,10 +443,10 @@ ul{
 
 .demo-4 .thumbnail__image {
   -webkit-transition: -webkit-transform 0.7s;
-  -moz-transition: -moz-tansform 0.7s;
+  -moz-transition: -moz-transform 0.7s;
   -ms-transition: -ms-transform 0.7s;
   -o-transition: -o-transform 0.7s;
-  transition: tranform 0.5s; 
+  transition: transform 0.5s; 
   -webkit-transform-origin: top;
   -moz-transform-origin: top;
   -ms-transform-origin: top;
@@ -495,10 +495,10 @@ ul{
   transform: translateY(20px);
   opacity: 0;
   -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-  -moz-transition: -moz-tansform 0.5s, opacity 0.5s;
+  -moz-transition: -moz-transform 0.5s, opacity 0.5s;
   -ms-transition: -ms-transform 0.5s, opacity 0.5s;
   -o-transition: -o-transform 0.5s, opacity 0.5s;
-  transition: tranform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
   -webkit-transition-delay: 0.3s;
   -mox-transition-delay: 0.3s;
   -ms-transition-delay: 0.3s;
@@ -539,7 +539,7 @@ ul{
 .demo-5 .thumbnail__image {
   position: absolute;
   -webkit-transition: -webkit-transform 0.5s;
-  -moz-transition: -moz-tansform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
   -ms-transition: -ms-transform 0.5s;
   -o-transition: -o-transform 0.5s;
   transition: transform 0.5s; 
@@ -570,10 +570,10 @@ ul{
   transform: translateX(-20px);
   opacity: 0;
   -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-  -moz-transition: -moz-tansform 0.5s, opacity 0.5s;
+  -moz-transition: -moz-transform 0.5s, opacity 0.5s;
   -ms-transition: -ms-transform 0.5s, opacity 0.5s;
   -o-transition: -o-transform 0.5s, opacity 0.5s;
-  transition: tranform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
   -webkit-transition-delay: 0.3s;
   -mox-transition-delay: 0.3s;
   -ms-transition-delay: 0.3s;
@@ -590,7 +590,7 @@ ul{
 
 .demo-6 .thumbnail__image {
   -webkit-transition: -webkit-transform 0.5s;
-  -moz-transition: -moz-tansform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
   -ms-transition: -ms-transform 0.5s;
   -o-transition: -o-transform 0.5s;
   transition: transform 0.5s; 
@@ -628,7 +628,7 @@ ul{
 
 .demo-7 .thumbnail__image{
   -webkit-transition: -webkit-transform 0.5s;
-  -moz-transition: -moz-tansform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
   -ms-transition: -ms-transform 0.5s;
   -o-transition: -o-transform 0.5s;
   transition: transform 0.5s; 
